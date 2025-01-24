@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ziyu Wang - Personal Website</title>
-    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    <title>Personal Website</title>
     <style>
         /* Basic Reset */
         * {
@@ -21,34 +20,6 @@
             line-height: 1.6;
         }
 
-        header {
-            position: relative;
-            width: 100%;
-            height: 20vh;
-            background: #000;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        #animation-area {
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            overflow: hidden;
-        }
-
-        .circle {
-            width: 10px;
-            height: 10px;
-            background: rgba(255, 255, 255, 0.4);
-            border-radius: 50%;
-            border: 1px solid rgba(255, 255, 255, 0.7);
-            position: absolute;
-        }
-
         main {
             max-width: 1200px;
             margin: 2rem auto;
@@ -57,76 +28,90 @@
             gap: 2rem;
             justify-items: center;
             align-items: center;
+            position: relative;
+            z-index: 1;
         }
 
         .card {
-            width: 200px;
-            height: 200px;
+            width: 180px;
+            height: 180px;
             border-radius: 50%;
-            background: linear-gradient(145deg, #4a90e2, #9013fe);
+            background: linear-gradient(145deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+            backdrop-filter: blur(5px);
             display: flex;
             justify-content: center;
             align-items: center;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
             color: white;
             font-size: 1.2rem;
             text-align: center;
-            transition: transform 0.3s ease;
-        }
-
-        .card:hover {
-            transform: scale(1.1);
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.8);
-        }
-
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+            position: relative;
+        }        
         footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
             text-align: center;
-            padding: 1rem;
-            background: #333;
+            background: rgba(0, 0, 0, 0.7);
             color: white;
-            margin-top: 2rem;
+            padding: 10px 0;
+            z-index: 1;
+        }
+        .bubble {
+            width: 200px; /* Increased size for larger bubbles */
+            height: 200px;
+            border-radius: 50%;
+            background: linear-gradient(145deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(8px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 1.5rem;
+            text-align: center;
+            position: relative;
+            transition: all 0.3s ease-in-out;
+        }
+        .bubble:hover {
+            transform: scale(1.2);
+            box-shadow: 0 10px 25px rgba(255, 255, 255, 0.7);
+            background: linear-gradient(145deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2));
+        }
+        .bubble-container {
+            position: absolute;
+            width: 100%;
+            height: 50%; /* Restrict bubbles to the top half of the screen */
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 50px;
+            justify-items: center;
+            align-items: center;
+            top: 10%;
+            pointer-events: none; /* Allow canvas interaction outside bubbles */
+        }
+        .bubble-container > div {
+            pointer-events: auto; /* Enable interaction for bubbles */
         }
     </style>
+
 </head>
 <body>
-    <header>
-        <div id="animation-area"></div>
-    </header>
+    <iframe src="canvas_star.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; border: none;"></iframe>
 
     <main>
-        <div class="card">About Me</div>
-        <div class="card">Computer Achievements</div>
-        <div class="card">Something Interesting</div>
-        <div class="card">Other Links</div>
+        <div class="bubble">About Me</div>
+        <div class="bubble">Computer Science Achievements</div>
+        <div class="bubble">Something Interesting</div>
+        <div class="bubble">Other Links</div>
     </main>
 
     <footer>
-        <p>&copy; 2025 Ziyu Wang. All Rights Reserved.</p>
+        <p>&copy; 2025. All Rights Reserved.</p>
     </footer>
-
-    <script>
-        // Create animation circles
-        for (let i = 0; i < 100; i++) {
-            const circle = document.createElement('div');
-            circle.classList.add('circle');
-            document.getElementById('animation-area').appendChild(circle);
-        }
-
-        const circles = document.querySelectorAll('.circle');
-
-        circles.forEach(circle => {
-            anime({
-                targets: circle,
-                translateX: () => anime.random(-window.innerWidth / 2, window.innerWidth / 2),
-                translateY: () => anime.random(-window.innerHeight / 2, window.innerHeight / 2),
-                scale: () => anime.random(0.5, 3),
-                opacity: [1, 0],
-                easing: 'easeInOutQuad',
-                duration: 2000,
-                delay: anime.random(0, 2000),
-                loop: true
-            });
-        });
-    </script>
 </body>
 </html>

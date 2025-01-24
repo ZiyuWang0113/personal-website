@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Visual Effect</title>
+    <style>
+        body {
+            margin: 0;
+            background: #282e38;
+            overflow: hidden;
+        }
+
+        canvas {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- This file is the canvas effect file -->
+    <canvas id="effectCanvas"></canvas>
+
+    <script>
+        const canvas = document.getElementById('effectCanvas');
+        const ctx = canvas.getContext('2d');
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const particlesArray = [];
+        const numberOfParticles = 66; /* Reduced number of particles */
+        let draggingParticle = null; /* Track the particle being dragged */
+
+        class Particle {
+            constructor(x, y) {
+                this.x = x || Math.random() * canvas.width;
+                this.y = y || Math.random() * (canvas.height / 2) + canvas.height / 2; // Constrain to bottom half
+                this.size = Math.random() * 3 + 1;
+                this.speedX = Math.random() * (1.4 + 1) - 0.7; /* Slower horizontal speed */
+                this.speedY = Math.random() * (1.4 + 1) - 0.7; /* Slower vertical speed */
+                this.color = 'rgba(255, 255, 255)'; /* Added transparency to particles */
+            }
+
+            update() {
+                if (!draggingParticle || this !== draggingParticle) {
+                    this.x += this.speedX;
+                    this.y += this.speedY;
+
+                    if (this.x < 0 || this.x > canvas.width) this.speedX *= -1;
+                    if (this.y < canvas.height / 2 || this.y > canvas.height) this.speedY *= -1; // Constrain to bottom half
+                }
+            }
+
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fillStyle = this.color;
+                ctx.shadowColor = 'rgba(255, 255, 255, 0.8)'; /* Enhanced glow effect */
+                ctx.shadowBlur = 100; /* Further increased glow intensity */
+                ctx.fill();
+            }
+        }
+
+        function init() {
+            for (let i = 0; i < numberOfParticles; i++) {
+                particlesArray.push(new Particle());
+            }
+        }
+
+        function handleParticles() {
+            for (let i = 0; i < particlesArray.length; i++) {
+                particlesArray[i].update();
+                particlesArray[i].draw();
+                for (let j = i; j < particlesArray.length; j++) {
+                    const dx = particlesArray[i].x - particlesArray[j].x;
+                    const dy = particlesArray[i].y - particlesArray[j].y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+                    if (distance < 100) {
+                        ctx.beginPath();
+                        ctx.strokeStyle = 'rgba(255, 255, 255, 0.7)'; /* Lines are more transparent */
+                        ctx.lineWidth = 0.5;
+                        ctx.moveTo(particlesArray[i].x, particlesArray[i].y);
+                        ctx.lineTo(particlesArray[j].x, particlesArray[j].y);
+                        ctx.stroke();
+                        ctx.closePath();
+                    }
+                }
+            }
+        }
+
+        canvas.addEventListener('mousedown', (event) => {
+            const mouseX = event.clientX;
+            const mouseY = event.clientY;
+            let closestDistance = 50; /* Max distance to capture */
+
+            for (let particle of particlesArray) {
+                const dx = mouseX - particle.x;
+                const dy = mouseY - particle.y;
+                const distance = Math.sqrt(dx * dx + dy * dy);
+                if (distance < closestDistance) {
+                    draggingParticle = particle;
+                    closestDistance = distance;
+                }
+            }
+        });
+
+        canvas.addEventListener('mousemove', (event) => {
+            if (draggingParticle) {
+                draggingParticle.x = event.clientX;
+                draggingParticle.y = event.clientY;
+            }
+        });
+
+        canvas.addEventListener('mouseup', () => {
+            draggingParticle = null; /* Release particle */
+        });
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            handleParticles();
+            requestAnimationFrame(animate);
+        }
+
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            particlesArray.length = 0;
+            init();
+        });
+
+        init();
+        animate();
+    </script>
+</body>
+</html>
