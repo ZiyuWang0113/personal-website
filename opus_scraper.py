@@ -11,6 +11,7 @@ import pytz
 import os
 import time
 
+
 # Scroll to the bottom of the page to load older content for older post
 def scroll_to_load(driver, max_scrolls=8):
     scroll_pause_time = 2  # Time to wait after each scroll
@@ -87,12 +88,13 @@ try:
     # Wait for the page to load
     driver.implicitly_wait(10)
 
-    # Call the scroll function
+    # COMMENT when automation
     # scroll_to_load(driver, max_scrolls=6)
 
     posts = driver.find_elements(By.CLASS_NAME, "bili-dyn-item")  # Fetch all posts
-    for post in posts:
-        try:
+    try:
+        local_date = datetime.now()
+        for post in posts:
             # Dynamic Date
             current_year = datetime.now().year
             dynamic_date_card = post.find_element(By.CLASS_NAME, "bili-dyn-item__desc")
@@ -136,7 +138,7 @@ try:
                     if len(date_list[0]) >= 11:
                         local_date = datetime.strptime(date_list[0], "%Y年%m月%d日").strftime("%Y-%m-%d")
                     else: # M-D
-                        
+
                         local_date = datetime.strptime(date_list[0], "%m月%d日").strftime("%m-%d")
                         local_date = str(current_year) + '-' + local_date
                 '''DATE CHECK'''
@@ -153,15 +155,16 @@ try:
                 post_links[local_date] = [f"https://www.bilibili.com/opus/{dynamic_id}", translated_content.text]
                 print(f"Found: {local_date}")
                 break
-        except Exception as e:
-            print(f"Error processing post: {e}")
-            continue
-        
-    file_path = "dynamics.txt"
-    append_most_recent_post(file_path, local_date, post_links[local_date][0], post_links[local_date][1])
+        file_path = "dynamics.txt"
+        if local_date not in post_links:
+            print("Date Post Error")
+        append_most_recent_post(file_path, local_date, post_links[local_date][0], post_links[local_date][1])
+    except Exception as e:
+        print(f"Error processing post: {e}")
 
 except Exception as e:
     print(f"Webpage Open Failed: {e}")
+
 finally:
     # Close the browser
     driver.quit()
