@@ -58,6 +58,7 @@
             border-radius: 4px;
             transition: all 0.3s ease;
             cursor: pointer;
+            position: relative; /* For hover popup */
         }
 
         .calendar .day:hover {
@@ -69,6 +70,48 @@
         .calendar .day.today {
             background: rgba(255, 165, 0, 0.8); /* Highlight with orange */
             color: black;
+        }
+
+        .popup {
+            display: none;
+            position: absolute;
+            bottom: 120%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            white-space: normal;
+            z-index: 10;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+            max-width: 300px; /* Limit the width of the popup */
+            text-align: center;
+        }
+
+        .popup .title {
+            font-size: 1rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            white-space: normal; /* Allow wrapping */
+            word-wrap: break-word; /* Break long words */
+        }
+
+        .popup .images {
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+        }
+
+        .popup .images img {
+            width: 80px; /* Adjust width for better alignment */
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .day:hover .popup {
+            display: block;
         }
 
         footer {
@@ -122,29 +165,38 @@
             "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
         ];
 
-        async function fetchLinks() {
-            const baseUrl = "post_links.txt"; // Replace with the actual URL to your post_links.txt
+        async function fetchLinksAndTitles() {
+            const baseUrl = "dynamics.txt";
             try {
                 const response = await fetch(baseUrl);
                 const text = await response.text();
-                const links = {};
+                const data = {};
+
+                console.log("Raw text from dynamics.txt:\n", text);  // Check file contents
 
                 text.split("\n").forEach(line => {
-                    const [date, link] = line.split(": ");
-                    if (date && link) {
-                        links[date.trim()] = link.trim();
+                    const [date, content] = line.split(": ");
+                    if (date && content) {
+                        try {
+                            const [link, title] = JSON.parse(content.trim().replace(/'/g, '"'));
+                            data[date.trim()] = { link, title };
+                            console.log(`Loaded entry for ${date}:`, data[date.trim()]); // Debugging log
+                        } catch (error) {
+                            console.error(`Error parsing entry for ${date}:`, content, error);
+                        }
                     }
                 });
 
-                return links;
+                return data;
             } catch (error) {
-                console.error("Failed to fetch links: ", error);
+                console.error("Failed to fetch data: ", error);
                 return {};
             }
         }
 
+
         async function generateCalendar(month, year) {
-            const links = await fetchLinks();
+            const data = await fetchLinksAndTitles();
             const calendar = document.querySelector('.calendar');
             const monthTitle = document.querySelector('.month');
             const firstDay = new Date(year, month, 1).getDay();
@@ -174,20 +226,44 @@
             }
 
             for (let day = 1; day <= daysInMonth; day++) {
-                const dayCell = document.createElement('a'); // Make the entire block clickable
+                const dayCell = document.createElement('a');
                 dayCell.className = 'day';
                 dayCell.style.display = 'block';
                 const dateKey = `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
-                console.log(`Checking dateKey: ${dateKey}`); // Print dateKey to verify matching
 
-                if (links[dateKey]) {
-                    console.log(`Found link for ${dateKey}: ${links[dateKey]}`); // Print matched link
-                    dayCell.href = links[dateKey];
-                    dayCell.target = "_blank"; // Open in a new tab
-                    dayCell.rel = "noopener noreferrer"; // Add security for new tab
+                if (data[dateKey]) {
+                    const { link, title } = data[dateKey];
+                    console.log(`Linking ${dateKey} with ${link}`); // Debugging linked data
+                    dayCell.href = link;
+                    dayCell.target = "_blank";
+                    dayCell.rel = "noopener noreferrer";
                     dayCell.textContent = day;
                     dayCell.style.color = "white";
                     dayCell.style.textDecoration = "none";
+
+                    // Add popup for title and images
+                    const popup = document.createElement('div');
+                    popup.className = 'popup';
+
+                    // Add title to popup
+                    const titleElement = document.createElement('div');
+                    titleElement.className = 'title';
+                    titleElement.textContent = title;
+                    popup.appendChild(titleElement);
+
+                    // Add images to popup
+                    const imageContainer = document.createElement('div');
+                    imageContainer.className = 'images';
+
+                    for (let i = 1; i <= 3; i++) {
+                        const img = document.createElement('img');
+                        img.src = `images/${dateKey}/${i}.jpg`;
+                        img.alt = `Preview ${i}`;
+                        imageContainer.appendChild(img);
+                    }
+
+                    popup.appendChild(imageContainer);
+                    dayCell.appendChild(popup);
                 } else {
                     dayCell.textContent = day;
                 }
@@ -235,6 +311,7 @@
 
             generateCalendar(currentMonth, currentYear);
         });
+      
     </script>
 </head>
 <body>
