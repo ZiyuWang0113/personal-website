@@ -109,7 +109,7 @@ try:
 
             # Dynamic Title
             dynamic_title = dynamic_id_card.text
-            title_short = str(dynamic_title)[:15]
+            title_short = str(dynamic_title)[:25]
 
             # Check for the desired post title
             if "《日·键圈时刻表》" in title_short or "键圈时刻表" in title_short:
