@@ -2,43 +2,82 @@ name: Run Selenium Scraper
 
 on:
   schedule:
-    - cron: '0 16 * * *'  # Runs every 24 hours at midnight UTC (8 AM Shanghai)
-  workflow_dispatch:  # Allows manual execution
+    - cron: '0 16 * * *'  # Runs every day at midnight UTC (Shanghai time 8 AM)
+  workflow_dispatch:  # Allows manual triggering
 
 jobs:
-  scrape:
-    runs-on: ubuntu-latest
+  run-selenium-windows:
+    runs-on: windows-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Install Firefox via apt
-        run: |
-          sudo add-apt-repository -y ppa:mozillateam/ppa
-          echo 'Package: *' | sudo tee /etc/apt/preferences.d/mozillateam
-          echo 'Pin: release o=LP-PPA-mozillateam' | sudo tee -a /etc/apt/preferences.d/mozillateam
-          echo 'Pin-Priority: 1001' | sudo tee -a /etc/apt/preferences.d/mozillateam
-          sudo apt update
-          sudo apt install -y firefox
-          
-      - name: Install Geckodriver
-        run: |
-          GECKO_VERSION=$(curl -s https://api.github.com/repos/mozilla/geckodriver/releases/latest | grep "tag_name" | cut -d '"' -f 4)
-          wget "https://github.com/mozilla/geckodriver/releases/download/$GECKO_VERSION/geckodriver-$GECKO_VERSION-linux64.tar.gz"
-          tar -xzf geckodriver-$GECKO_VERSION-linux64.tar.gz
-          sudo mv geckodriver /usr/local/bin/
-          geckodriver --version
-          
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
 
-      - name: Run Selenium scraper
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Download and Install GeckoDriver
+        run: |
+          Invoke-WebRequest -Uri "https://github.com/mozilla/geckodriver/releases/latest/download/geckodriver-v0.34.0-win64.zip" -OutFile "geckodriver.zip"
+          Expand-Archive -Path geckodriver.zip -DestinationPath .
+          echo "GECKODRIVER=$(Get-Location)\geckodriver.exe" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8
+
+      - name: Run Selenium Scraper
         run: python opus_scraper.py
 
-      - name: Commit and push updates
+      - name: Commit and Push Updates
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
           git add dynamics.txt
           git commit -m "Auto-update dynamics.txt with latest post" || echo "No changes to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  run-selenium-linux:
+    needs: run-selenium-windows  # Runs Linux version if Windows fails
+    runs-on: ubuntu-latest
+    if: failure()
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y firefox
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Download and Install GeckoDriver
+        run: |
+          GECKO_VERSION=$(curl -s "https://api.github.com/repos/mozilla/geckodriver/releases/latest" | grep -oP '"tag_name": "\K(.*?)(?=")')
+          wget "https://github.com/mozilla/geckodriver/releases/latest/download/geckodriver-$GECKO_VERSION-linux64.tar.gz"
+          tar -xvzf "geckodriver-$GECKO_VERSION-linux64.tar.gz"
+          chmod +x geckodriver
+          sudo mv geckodriver /usr/local/bin/
+
+      - name: Run Selenium Scraper
+        run: python opus_scraper.py
+
+      - name: Commit and Push Updates
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add dynamics.txt
+          git commit -m "Auto-update dynamics.txt with latest post" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
