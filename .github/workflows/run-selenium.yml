@@ -2,8 +2,8 @@ name: Run Selenium Scraper
 
 on:
   schedule:
-    - cron: '0 16 * * *'  # Runs every day at midnight UTC (Shanghai time 8 AM)
-  workflow_dispatch:  # Allows manual triggering
+    - cron: '0 16 * * *'  # Runs daily at 16:00 UTC (midnight Shanghai time)
+  workflow_dispatch:  # Allows manual execution
 
 jobs:
   run-selenium-windows:
@@ -22,11 +22,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Download and Install GeckoDriver
-        run: |
-          Invoke-WebRequest -Uri "https://github.com/mozilla/geckodriver/releases/latest/download/geckodriver-v0.34.0-win64.zip" -OutFile "geckodriver.zip"
-          Expand-Archive -Path geckodriver.zip -DestinationPath .
-          echo "GECKODRIVER=$(Get-Location)\geckodriver.exe" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8
+      - name: Use GeckoDriver from Repo
+        run: echo "GECKODRIVER=$PWD/geckodriver.exe" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8
 
       - name: Run Selenium Scraper
         run: python opus_scraper.py
@@ -42,7 +39,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   run-selenium-linux:
-    needs: run-selenium-windows  # Runs Linux version if Windows fails
+    needs: run-selenium-windows  # Runs Linux if Windows fails
     runs-on: ubuntu-latest
     if: failure()
     steps:
@@ -61,13 +58,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Download and Install GeckoDriver
-        run: |
-          GECKO_VERSION=$(curl -s "https://api.github.com/repos/mozilla/geckodriver/releases/latest" | grep -oP '"tag_name": "\K(.*?)(?=")')
-          wget "https://github.com/mozilla/geckodriver/releases/latest/download/geckodriver-$GECKO_VERSION-linux64.tar.gz"
-          tar -xvzf "geckodriver-$GECKO_VERSION-linux64.tar.gz"
-          chmod +x geckodriver
-          sudo mv geckodriver /usr/local/bin/
+      - name: Use GeckoDriver from Repo
+        run: echo "GECKODRIVER=$(pwd)/geckodriver" >> $GITHUB_ENV
 
       - name: Run Selenium Scraper
         run: python opus_scraper.py
