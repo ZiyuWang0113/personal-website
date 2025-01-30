@@ -119,7 +119,9 @@ try:
                 continue
 
             dynamic_date = str(dynamic_date_card.text)
-            dynamic_type = str(dynamic_date_card.text.split()[-1]) # jump video
+            if len(dynamic_date) == 1:
+                continue
+            dynamic_type = str(dynamic_date_card.text.split(' ')[-1]) # jump video
             if dynamic_type[-2:] != "文章":
                 continue
 
@@ -133,37 +135,57 @@ try:
 
             # Check for the desired post title
             if "《日·键圈时刻表》" in title_short or "键圈时刻表" in title_short:
-                date_list = dynamic_date.split(' ')
-                # special time
-                if date_list[0] == "昨天" or date_list[0] == "前天":
-                    cur_time = datetime.now()
-                    localFormat = "%Y-%m-%d"
-                    tz = 'Asia/Shanghai'
-                    localDatetime = cur_time.astimezone(pytz.timezone(tz))
-                    delta = 1 if date_list[0] == "昨天" else 2
-                    local_date = localDatetime - timedelta(days=delta)
-                    local_date = local_date.strftime(localFormat)
-                # day amount
-                elif date_list[0] == "2天前" or date_list[0] == "3天前":
-                    cur_time = datetime.now()
-                    localFormat = "%Y-%m-%d"
-                    tz = 'Asia/Shanghai'
-                    localDatetime = cur_time.astimezone(pytz.timezone(tz))
-                    delta = 2 if date_list[0] == "2天前" else 3
-                    local_date = localDatetime - timedelta(days=delta)
-                    local_date = local_date.strftime(localFormat)
-                # normal date
+                # run at 14pm
+                if "小时前" in str(dynamic_date) or "分钟前" in str(dynamic_date) \
+                    or "今天" in str(dynamic_date): # hours ago
+                    if "小时前" in str(dynamic_date):
+                        date_list = dynamic_date.split('小时前')
+                        hour = date_list[0]
+                        if int(hour) >= 14: # 14 hours ago = yesterday
+                            cur_time = datetime.now()
+                            localFormat = "%Y-%m-%d"
+                            tz = 'Asia/Shanghai'
+                            localDatetime = cur_time.astimezone(pytz.timezone(tz))
+                            local_date = localDatetime - timedelta(days=1)
+                            local_date = local_date.strftime(localFormat)
+                    else:
+                        cur_time = datetime.now()
+                        localFormat = "%Y-%m-%d"
+                        tz = 'Asia/Shanghai'
+                        localDatetime = cur_time.astimezone(pytz.timezone(tz))
+                        local_date = local_date.strftime(localFormat)
                 else:
-                    # Y-M-D
-                    if len(date_list[0]) >= 11:
-                        local_date = datetime.strptime(date_list[0], "%Y年%m月%d日").strftime("%Y-%m-%d")
-                    else: # M-D
+                    date_list = dynamic_date.split(' ')
+                    # special time
+                    if date_list[0] == "昨天" or date_list[0] == "前天":
+                        cur_time = datetime.now()
+                        localFormat = "%Y-%m-%d"
+                        tz = 'Asia/Shanghai'
+                        localDatetime = cur_time.astimezone(pytz.timezone(tz))
+                        delta = 1 if date_list[0] == "昨天" else 2
+                        local_date = localDatetime - timedelta(days=delta)
+                        local_date = local_date.strftime(localFormat)
+                    # day amount
+                    elif date_list[0] == "2天前" or date_list[0] == "3天前":
+                        cur_time = datetime.now()
+                        localFormat = "%Y-%m-%d"
+                        tz = 'Asia/Shanghai'
+                        localDatetime = cur_time.astimezone(pytz.timezone(tz))
+                        delta = 2 if date_list[0] == "2天前" else 3
+                        local_date = localDatetime - timedelta(days=delta)
+                        local_date = local_date.strftime(localFormat)
+                    # normal date
+                    else:
+                        # Y-M-D
+                        if len(date_list[0]) >= 11:
+                            local_date = datetime.strptime(date_list[0], "%Y年%m月%d日").strftime("%Y-%m-%d")
+                        else: # M-D
 
-                        local_date = datetime.strptime(date_list[0], "%m月%d日").strftime("%m-%d")
-                        local_date = str(current_year) + '-' + local_date
-                '''DATE CHECK'''
-                if local_date[:4] != str(current_year):
-                    break
+                            local_date = datetime.strptime(date_list[0], "%m月%d日").strftime("%m-%d")
+                            local_date = str(current_year) + '-' + local_date
+                    '''DATE CHECK'''
+                    if local_date[:4] != str(current_year):
+                        break
                 # title
                 translator = Translator()
                 title_content = dynamic_title.split("》")[1]
