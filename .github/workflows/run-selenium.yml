@@ -2,7 +2,7 @@ name: Run Selenium Scraper
 
 on:
   schedule:
-    - cron: '0 16 * * *'  # Runs daily at 16:00 UTC (midnight Shanghai time)
+    - cron: '0 2 * * *'  # Runs at 02:00 UTC (10:00 AM Shanghai time)
   workflow_dispatch:  # Allows manual execution
 
 jobs:
