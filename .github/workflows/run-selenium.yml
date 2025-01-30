@@ -34,40 +34,5 @@ jobs:
           git config --global user.email 'actions@github.com'
           git add dynamics.txt
           git commit -m "Auto-update dynamics.txt with latest post" || echo "No changes to commit"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  run-selenium-linux:
-    needs: run-selenium-windows  # Runs Linux if Windows fails
-    runs-on: ubuntu-latest
-    if: failure()
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.12'
-
-      - name: Install Dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y firefox
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Use GeckoDriver from Repo
-        run: echo "GECKODRIVER=$(pwd)/geckodriver" >> $GITHUB_ENV
-
-      - name: Run Selenium Scraper
-        run: python opus_scraper.py
-
-      - name: Commit and Push Updates
-        run: |
-          git config --global user.name 'GitHub Actions'
-          git config --global user.email 'actions@github.com'
-          git add dynamics.txt
-          git commit -m "Auto-update dynamics.txt with latest post" || echo "No changes to commit"
           git push https://YOUR_GITHUB_USERNAME:${{ secrets.GH_PAT }}@github.com/YOUR_GITHUB_USERNAME/personal-website.git main
+          
