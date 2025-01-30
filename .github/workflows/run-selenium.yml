@@ -20,7 +20,14 @@ jobs:
           echo 'Pin-Priority: 1001' | sudo tee -a /etc/apt/preferences.d/mozillateam
           sudo apt update
           sudo apt install -y firefox
-
+      - name: Install Geckodriver
+        run: |
+          GECKO_VERSION=$(curl -s https://api.github.com/repos/mozilla/geckodriver/releases/latest | grep "tag_name" | cut -d '"' -f 4)
+          wget "https://github.com/mozilla/geckodriver/releases/download/$GECKO_VERSION/geckodriver-$GECKO_VERSION-linux64.tar.gz"
+          tar -xzf geckodriver-$GECKO_VERSION-linux64.tar.gz
+          sudo mv geckodriver /usr/local/bin/
+          geckodriver --version
+          
       - name: Install dependencies
         run: pip install -r requirements.txt
 
