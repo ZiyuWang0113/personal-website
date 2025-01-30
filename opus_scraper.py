@@ -169,8 +169,7 @@ try:
                 title_content = dynamic_title.split("》")[1]
                 title_content = title_content.split("\n")[0]
                 translated_content = translator.translate(title_content, src="zh-CN", dest="en")
-                # image
-                download_images(post, local_date)
+                
                 # link
                 post_links[local_date] = [f"https://www.bilibili.com/opus/{dynamic_id}", translated_content.text]
                 print(f"Found: {local_date}")
@@ -178,10 +177,12 @@ try:
         file_path = "dynamics.txt"
         last_recorded_date = get_last_recorded_date(file_path)
         if local_date == last_recorded_date:
-            print("No new post found; Last record: {last_recorded_date}")
+            print(f"No new post found; Last record: {last_recorded_date}")
         else:
             if local_date not in post_links:
                 print("Date Post Error")
+            # image
+            download_images(post, local_date)
             append_most_recent_post(file_path, local_date, post_links[local_date][0], post_links[local_date][1])
     except Exception as e:
         print(f"Error processing post: {e}")
