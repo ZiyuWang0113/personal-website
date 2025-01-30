@@ -70,6 +70,4 @@ jobs:
           git config --global user.email 'actions@github.com'
           git add dynamics.txt
           git commit -m "Auto-update dynamics.txt with latest post" || echo "No changes to commit"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git push https://YOUR_GITHUB_USERNAME:${{ secrets.GH_PAT }}@github.com/YOUR_GITHUB_USERNAME/personal-website.git main
