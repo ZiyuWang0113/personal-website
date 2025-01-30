@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.common.exceptions import NoSuchElementException
 
 from urllib.request import urlretrieve
 from datetime import datetime, timedelta
@@ -75,6 +76,20 @@ def append_most_recent_post(file_path, date, link, title):
         print(f"Appended new post for {date} to {file_path}.")
 
 
+def get_last_recorded_date(file_path):
+    """Reads the last recorded date from the dynamics.txt file."""
+    if not os.path.exists(file_path) or os.stat(file_path).st_size == 0:
+        return None  # Return None if file does not exist or is empty
+
+    with open(file_path, "r", encoding="utf-8") as file:
+        lines = file.readlines()
+        if lines:
+            last_line = lines[-1].strip()
+            if ": " in last_line:
+                return last_line.split(": ")[0]  # Extract the date part
+    return None
+
+
 # Set up the WebDriver for Firefox
 service = Service("geckodriver.exe")  # Update this path to where your geckodriver is located
 driver = webdriver.Firefox(service=service)
@@ -97,7 +112,12 @@ try:
         for post in posts:
             # Dynamic Date
             current_year = datetime.now().year
-            dynamic_date_card = post.find_element(By.CLASS_NAME, "bili-dyn-item__desc")
+            try:
+                dynamic_date_card = post.find_element(By.CLASS_NAME, "bili-dyn-item__desc")
+            except NoSuchElementException:
+                print("Skip Post")
+                continue
+
             dynamic_date = str(dynamic_date_card.text)
             dynamic_type = str(dynamic_date_card.text.split()[-1]) # jump video
             if dynamic_type[-2:] != "文章":
@@ -156,9 +176,13 @@ try:
                 print(f"Found: {local_date}")
                 break
         file_path = "dynamics.txt"
-        if local_date not in post_links:
-            print("Date Post Error")
-        append_most_recent_post(file_path, local_date, post_links[local_date][0], post_links[local_date][1])
+        last_recorded_date = get_last_recorded_date(file_path)
+        if local_date == last_recorded_date:
+            print("No new post found; Last record: {last_recorded_date}")
+        else:
+            if local_date not in post_links:
+                print("Date Post Error")
+            append_most_recent_post(file_path, local_date, post_links[local_date][0], post_links[local_date][1])
     except Exception as e:
         print(f"Error processing post: {e}")
 
