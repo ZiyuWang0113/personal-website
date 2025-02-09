@@ -32,3 +32,4 @@
 2025-02-05: ["https://www.bilibili.com/opus/1030436532103675939", "Weika WK87 keyboard will be available tonight. Key setting universe. AL80 aluminum alloy keyboard will be available to be available tonight."]
 2025-02-06: ["https://www.bilibili.com/opus/1030808875684593700", "Kaihua launches back cover magnetic shaft magnetic god shaft iLovbeeB75 Jiaotuotuo keyboard is about to be launched"]
 2025-02-07: ["https://www.bilibili.com/opus/1031177942235873288", "ATKEDGE 60HE launches the master version of the magnetic shaft keyboard iLovbeeB75 Jiaotuotuo keyboard officially released"]
+2025-02-08: ["https://www.bilibili.com/opus/1031552867090038817", "DRYSTUDIO Lenovo joint ice ring63RT magnetic shaft keyboard set up QK split keyboard real shot update"]
