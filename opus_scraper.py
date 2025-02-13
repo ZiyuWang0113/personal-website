@@ -14,7 +14,7 @@ import time
 
 
 # Scroll to the bottom of the page to load older content for older post
-def scroll_to_load(driver, max_scrolls=8):
+def scroll_to_load(driver, max_scrolls=3):
     scroll_pause_time = 2  # Time to wait after each scroll
     last_height = driver.execute_script("return document.body.scrollHeight")
 
@@ -104,7 +104,7 @@ try:
     driver.implicitly_wait(10)
 
     # COMMENT when automation
-    # scroll_to_load(driver, max_scrolls=6)
+    scroll_to_load(driver, max_scrolls=2)
 
     posts = driver.find_elements(By.CLASS_NAME, "bili-dyn-item")  # Fetch all posts
     try:
