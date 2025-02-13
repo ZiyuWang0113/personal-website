@@ -100,7 +100,7 @@ try:
     driver.get(url)
 
     # Wait for the page to load
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(25)
 
     # COMMENT when automation
     scroll_to_load(driver, max_scrolls=2)
