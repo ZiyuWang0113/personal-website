@@ -16,6 +16,10 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.12'
+      # Install Firefox on Windows using Chocolatey
+      - name: Install Firefox
+        run: choco install firefox -y
+        shell: powershell
 
       - name: Install Dependencies
         run: |

@@ -1,8 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.firefox.options import Options
 from selenium.common.exceptions import NoSuchElementException
-
 from datetime import datetime, timedelta
 from googletrans import Translator
 
@@ -87,10 +87,11 @@ def get_last_recorded_date(file_path):
                 return last_line.split(": ")[0]  # Extract the date part
     return None
 
-
+options = Options()
+options.add_argument("--headless")
 # Set up the WebDriver for Firefox
 service = Service("geckodriver.exe")  # Update this path to where your geckodriver is located
-driver = webdriver.Firefox(service=service)
+driver = webdriver.Firefox(service=service, options=options)
 post_links = {}
 find_same_old = False
 
