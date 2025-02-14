@@ -98,8 +98,9 @@ find_same_old = False
 try:
     # Open the Bilibili page
     url = "https://space.bilibili.com/57276677/dynamic"
+    print("Debug: driver.get() the URl")
     driver.get(url)
-
+    print("Debug: searching for posts")
     # Wait for the page to load
     driver.implicitly_wait(25)
 
