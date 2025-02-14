@@ -104,12 +104,15 @@ try:
     driver.implicitly_wait(25)
 
     # COMMENT when automation
-    scroll_to_load(driver, max_scrolls=2)
+    # scroll_to_load(driver, max_scrolls=2)
 
     posts = driver.find_elements(By.CLASS_NAME, "bili-dyn-item")  # Fetch all posts
     local_date = datetime.now()
+    cnt = 0
     for post in posts:
         # Dynamic Date
+        cnt += 1
+        print(f"Post {cnt} checked.")
         current_year = datetime.now().year
         try:
             dynamic_date_card = post.find_element(By.CLASS_NAME, "bili-dyn-item__desc")
@@ -170,9 +173,6 @@ try:
                     else:  # M-D
                         local_date = datetime.strptime(date_list[0], "%m月%d日").strftime("%m-%d")
                         local_date = str(current_year) + '-' + local_date
-                '''DATE CHECK'''
-                if local_date[:4] != str(current_year):
-                    break
             # title
             translator = Translator()
             title_content = dynamic_title.split("》")[1]
