@@ -38,3 +38,4 @@
 2025-02-11: ["https://www.bilibili.com/opus/1032673217924300839", "I admit that today is the magnetic axis schedule! Same name! LAMZU releases Jet75 magnetic axis"]
 2025-02-12: ["https://www.bilibili.com/opus/1033030739555254276", "HELLO GANSS launches aluminum alloy 2U0 98 keyboard ES101T AM RGB 65 limited time return"]
 2025-02-13: ["https://www.bilibili.com/opus/1033416204308447269", "Maicon launches new version of G87 wireless three-mode keyboard, ATK new product RS6 aluminum alloy magnetic shaft keyboard details are announced"]
+2025-02-14: ["https://www.bilibili.com/opus/1033780284365996040", "Valentine\'s Day Event: Colorful KM87pro Wireless Mechanical Keyboard, Top 100, Starting from 59 yuan"]
