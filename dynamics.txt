@@ -40,3 +40,4 @@
 2025-02-13: ["https://www.bilibili.com/opus/1033416204308447269", "Maicon launches new version of G87 wireless three-mode keyboard, ATK new product RS6 aluminum alloy magnetic shaft keyboard details are announced"]
 2025-02-14: ["https://www.bilibili.com/opus/1033780284365996040", "Valentine\'s Day Event: Colorful KM87pro Wireless Mechanical Keyboard, Top 100, Starting from 59 yuan"]
 2025-02-15: ["https://www.bilibili.com/opus/1034149342325243924", "Zuilu A75M Snake Year Limited Edition Magnetic Axis Keyboard Pre-sale is on. Forwards releases ZAP68 series Magnetic Axis Keyboard"]
+2025-02-16: ["https://www.bilibili.com/opus/1034516729509707782", "Keyverse Eternity65 magnetic shaft keyboard release time/sales platform"]
