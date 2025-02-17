@@ -5,8 +5,6 @@ from selenium.webdriver.firefox.options import Options
 from selenium.common.exceptions import NoSuchElementException
 from datetime import datetime, timedelta
 from googletrans import Translator
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 import pytz
 import os
@@ -102,19 +100,18 @@ find_same_old = False
 
 # Open the Bilibili page
 url = "https://space.bilibili.com/57276677/dynamic"
-print("Debug: driver.get() the URl")
+print("Debug: driver.get() url")
 driver.get(url)
 
 # Wait for the page to load
-WebDriverWait(driver, 30).until(
-    EC.presence_of_element_located((By.CLASS_NAME, "bili-dyn-item"))
-)
-scroll_to_load(driver, max_scrolls=2)
+driver.implicitly_wait(30)
+# scroll_to_load(driver, max_scrolls=2)
 
 posts = driver.find_elements(By.CLASS_NAME, "bili-dyn-item")  # Fetch all posts
 local_date = datetime.now()
 cnt = 0
-print(posts[0])
+if not posts:
+    print("Find failed.")
 for post in posts:
     # Dynamic Date
     cnt += 1
