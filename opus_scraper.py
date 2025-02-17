@@ -103,7 +103,7 @@ url = "https://space.bilibili.com/57276677/dynamic"
 print("Debug: driver.get() the URl")
 driver.get(url)
 # Wait for the page to load
-driver.implicitly_wait(30)
+driver.implicitly_wait(10)
 
 # COMMENT when automation
 # scroll_to_load(driver, max_scrolls=2)
