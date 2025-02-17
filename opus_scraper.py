@@ -102,7 +102,6 @@ find_same_old = False
 url = "https://space.bilibili.com/57276677/dynamic"
 print("Debug: driver.get() the URl")
 driver.get(url)
-print("Debug: searching for posts")
 # Wait for the page to load
 driver.implicitly_wait(30)
 
@@ -112,6 +111,7 @@ driver.implicitly_wait(30)
 posts = driver.find_elements(By.CLASS_NAME, "bili-dyn-item")  # Fetch all posts
 local_date = datetime.now()
 cnt = 0
+print(posts[0])
 for post in posts:
     # Dynamic Date
     cnt += 1
