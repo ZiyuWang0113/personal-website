@@ -5,6 +5,8 @@ from selenium.webdriver.firefox.options import Options
 from selenium.common.exceptions import NoSuchElementException
 from datetime import datetime, timedelta
 from googletrans import Translator
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 import pytz
 import os
@@ -12,21 +14,21 @@ import time
 
 
 # Scroll to the bottom of the page to load older content for older post
-# def scroll_to_load(driver, max_scrolls=3):
-#     scroll_pause_time = 2  # Time to wait after each scroll
-#     last_height = driver.execute_script("return document.body.scrollHeight")
+def scroll_to_load(driver, max_scrolls=3):
+    scroll_pause_time = 2  # Time to wait after each scroll
+    last_height = driver.execute_script("return document.body.scrollHeight")
 
-#     for _ in range(max_scrolls):
-#         # Scroll down to the bottom
-#         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-#         time.sleep(scroll_pause_time)
+    for _ in range(max_scrolls):
+        # Scroll down to the bottom
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(scroll_pause_time)
 
-#         # Wait for the page to load and calculate the new scroll height
-#         new_height = driver.execute_script("return document.body.scrollHeight")
-#         if new_height == last_height:
-#             # If the height hasn't changed, stop scrolling
-#             break
-#         last_height = new_height
+        # Wait for the page to load and calculate the new scroll height
+        new_height = driver.execute_script("return document.body.scrollHeight")
+        if new_height == last_height:
+            # If the height hasn't changed, stop scrolling
+            break
+        last_height = new_height
 
 
 def download_images(post_element, local_date):
@@ -102,11 +104,12 @@ find_same_old = False
 url = "https://space.bilibili.com/57276677/dynamic"
 print("Debug: driver.get() the URl")
 driver.get(url)
-# Wait for the page to load
-driver.implicitly_wait(10)
 
-# COMMENT when automation
-# scroll_to_load(driver, max_scrolls=2)
+# Wait for the page to load
+WebDriverWait(driver, 20).until(
+    EC.presence_of_element_located((By.CLASS_NAME, "bili-dyn-item"))
+)
+scroll_to_load(driver, max_scrolls=2)
 
 posts = driver.find_elements(By.CLASS_NAME, "bili-dyn-item")  # Fetch all posts
 local_date = datetime.now()
