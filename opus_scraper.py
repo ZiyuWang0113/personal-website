@@ -12,21 +12,21 @@ import time
 
 
 # Scroll to the bottom of the page to load older content for older post
-def scroll_to_load(driver, max_scrolls=3):
-    scroll_pause_time = 2  # Time to wait after each scroll
-    last_height = driver.execute_script("return document.body.scrollHeight")
+# def scroll_to_load(driver, max_scrolls=3):
+#     scroll_pause_time = 2  # Time to wait after each scroll
+#     last_height = driver.execute_script("return document.body.scrollHeight")
 
-    for _ in range(max_scrolls):
-        # Scroll down to the bottom
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(scroll_pause_time)
+#     for _ in range(max_scrolls):
+#         # Scroll down to the bottom
+#         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+#         time.sleep(scroll_pause_time)
 
-        # Wait for the page to load and calculate the new scroll height
-        new_height = driver.execute_script("return document.body.scrollHeight")
-        if new_height == last_height:
-            # If the height hasn't changed, stop scrolling
-            break
-        last_height = new_height
+#         # Wait for the page to load and calculate the new scroll height
+#         new_height = driver.execute_script("return document.body.scrollHeight")
+#         if new_height == last_height:
+#             # If the height hasn't changed, stop scrolling
+#             break
+#         last_height = new_height
 
 
 def download_images(post_element, local_date):
@@ -102,7 +102,7 @@ try:
     driver.get(url)
     print("Debug: searching for posts")
     # Wait for the page to load
-    driver.implicitly_wait(20)
+    driver.implicitly_wait(30)
 
     # COMMENT when automation
     # scroll_to_load(driver, max_scrolls=2)
