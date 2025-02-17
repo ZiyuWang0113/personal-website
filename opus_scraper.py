@@ -104,7 +104,7 @@ print("Debug: driver.get() the URl")
 driver.get(url)
 print("Debug: searching for posts")
 # Wait for the page to load
-driver.implicitly_wait(30)
+driver.implicitly_wait(10)
 
 # COMMENT when automation
 # scroll_to_load(driver, max_scrolls=2)
