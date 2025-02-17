@@ -106,7 +106,7 @@ print("Debug: driver.get() the URl")
 driver.get(url)
 
 # Wait for the page to load
-WebDriverWait(driver, 20).until(
+WebDriverWait(driver, 30).until(
     EC.presence_of_element_located((By.CLASS_NAME, "bili-dyn-item"))
 )
 scroll_to_load(driver, max_scrolls=2)
