@@ -102,7 +102,7 @@ try:
     driver.get(url)
     print("Debug: searching for posts")
     # Wait for the page to load
-    driver.implicitly_wait(25)
+    driver.implicitly_wait(20)
 
     # COMMENT when automation
     # scroll_to_load(driver, max_scrolls=2)
@@ -195,7 +195,7 @@ try:
             download_images(post, local_date)
             append_most_recent_post(file_path, local_date, post_links[local_date][0], post_links[local_date][1])
         break
-
+    print("Posts all done.")
 except Exception as e:
     print(f"Webpage Open Failed: {e}")
 
