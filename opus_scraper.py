@@ -79,13 +79,16 @@ def get_last_recorded_date(file_path):
     if not os.path.exists(file_path) or os.stat(file_path).st_size == 0:
         return None  # Return None if file does not exist or is empty
 
-    with open(file_path, "r", encoding="utf-8") as file:
-        lines = file.readlines()
-        if lines:
-            last_line = lines[-1].strip()
-            if ": " in last_line:
-                return last_line.split(": ")[0]  # Extract the date part
-    return None
+    with open(file_path, "rb") as f:
+        f.seek(-2, 2)  # Move to the second last byte
+        while f.read(1) != b"\n":  # Read backward until a newline is found
+            f.seek(-2, 1)  # Move back again
+        last_line = f.readline().decode()
+        if ": " in last_line:
+            date = last_line.split(": ")[0]
+            return date
+        return None
+
 
 options = Options()
 options.add_argument("--headless")
@@ -95,110 +98,97 @@ driver = webdriver.Firefox(service=service, options=options)
 post_links = {}
 find_same_old = False
 
-try:
-    # Open the Bilibili page
-    url = "https://space.bilibili.com/57276677/dynamic"
-    print("Debug: driver.get() the URl")
-    driver.get(url)
-    print("Debug: searching for posts")
-    # Wait for the page to load
-    driver.implicitly_wait(30)
+# Open the Bilibili page
+url = "https://space.bilibili.com/57276677/dynamic"
+print("Debug: driver.get() the URl")
+driver.get(url)
+print("Debug: searching for posts")
+# Wait for the page to load
+driver.implicitly_wait(30)
 
-    # COMMENT when automation
-    # scroll_to_load(driver, max_scrolls=2)
+# COMMENT when automation
+# scroll_to_load(driver, max_scrolls=2)
 
-    posts = driver.find_elements(By.CLASS_NAME, "bili-dyn-item")  # Fetch all posts
-    local_date = datetime.now()
-    cnt = 0
-    for post in posts:
-        # Dynamic Date
-        cnt += 1
-        print(f"Post {cnt} checked.")
-        current_year = datetime.now().year
-        try:
-            dynamic_date_card = post.find_element(By.CLASS_NAME, "bili-dyn-item__desc")
-        except NoSuchElementException:
-            print("Skip Post")
-            continue
+posts = driver.find_elements(By.CLASS_NAME, "bili-dyn-item")  # Fetch all posts
+local_date = datetime.now()
+cnt = 0
+for post in posts:
+    # Dynamic Date
+    cnt += 1
+    print(f"Post {cnt} checked.")
+    current_year = datetime.now().year
+    try:
+        dynamic_date_card = post.find_element(By.CLASS_NAME, "bili-dyn-item__desc")
+    except NoSuchElementException:
+        print("Skip Post")
+        continue
 
-        dynamic_date = str(dynamic_date_card.text)
-        if len(dynamic_date) == 1:
-            continue
-        dynamic_type = str(dynamic_date_card.text.split(' ')[-1])  # jump video
-        if dynamic_type[-2:] != "文章":
-            continue
+    dynamic_date = str(dynamic_date_card.text)
+    if len(dynamic_date) == 1:
+        continue
+    dynamic_type = str(dynamic_date_card.text.split(' ')[-1])  # jump video
+    if dynamic_type[-2:] != "文章":
+        continue
 
-        # Dynamic ID
-        dynamic_id_card = post.find_element(By.CLASS_NAME, "dyn-card-opus")
-        dynamic_id = dynamic_id_card.get_attribute("dyn-id")
+    # Dynamic ID
+    dynamic_id_card = post.find_element(By.CLASS_NAME, "dyn-card-opus")
+    dynamic_id = dynamic_id_card.get_attribute("dyn-id")
 
-        # Dynamic Title
-        dynamic_title = dynamic_id_card.text
-        title_short = str(dynamic_title)[:25]
+    # Dynamic Title
+    dynamic_title = dynamic_id_card.text
+    title_short = str(dynamic_title)[:25]
 
-        # Check for the desired post title
-        if "《日·键圈时刻表》" in title_short or "键圈时刻表" in title_short:
-            # run at CHINA 10:30pm
-            if "小时前" in str(dynamic_date) or "分钟前" in str(dynamic_date) \
-                    or "今天" in str(dynamic_date):  # TODAY
+    # Check for the desired post title
+    if "《日·键圈时刻表》" in title_short or "键圈时刻表" in title_short:
+        # run at CHINA 10:30pm
+        if "小时前" in str(dynamic_date) or "分钟前" in str(dynamic_date) \
+                or "今天" in str(dynamic_date):  # TODAY
+            cur_time = datetime.now()
+            localFormat = "%Y-%m-%d"
+            tz = 'Asia/Shanghai'
+            localDatetime = cur_time.astimezone(pytz.timezone(tz))
+            local_date = local_date.strftime(localFormat)
+        else:
+            date_list = dynamic_date.split(' ')
+            # special time
+            if date_list[0] == "昨天" or date_list[0] == "前天":
                 cur_time = datetime.now()
                 localFormat = "%Y-%m-%d"
                 tz = 'Asia/Shanghai'
                 localDatetime = cur_time.astimezone(pytz.timezone(tz))
+                delta = 1 if date_list[0] == "昨天" else 2
+                local_date = localDatetime - timedelta(days=delta)
                 local_date = local_date.strftime(localFormat)
-            else:
-                date_list = dynamic_date.split(' ')
-                # special time
-                if date_list[0] == "昨天" or date_list[0] == "前天":
-                    cur_time = datetime.now()
-                    localFormat = "%Y-%m-%d"
-                    tz = 'Asia/Shanghai'
-                    localDatetime = cur_time.astimezone(pytz.timezone(tz))
-                    delta = 1 if date_list[0] == "昨天" else 2
-                    local_date = localDatetime - timedelta(days=delta)
-                    local_date = local_date.strftime(localFormat)
-                # day amount
-                elif date_list[0] == "2天前" or date_list[0] == "3天前":
-                    cur_time = datetime.now()
-                    localFormat = "%Y-%m-%d"
-                    tz = 'Asia/Shanghai'
-                    localDatetime = cur_time.astimezone(pytz.timezone(tz))
-                    delta = 2 if date_list[0] == "2天前" else 3
-                    local_date = localDatetime - timedelta(days=delta)
-                    local_date = local_date.strftime(localFormat)
-                # normal date
-                else:
-                    # Y-M-D
-                    if len(date_list[0]) >= 11:
-                        local_date = datetime.strptime(date_list[0], "%Y年%m月%d日").strftime("%Y-%m-%d")
-                    else:  # M-D
-                        local_date = datetime.strptime(date_list[0], "%m月%d日").strftime("%m-%d")
-                        local_date = str(current_year) + '-' + local_date
-            # title
-            translator = Translator()
-            title_content = dynamic_title.split("》")[1]
-            title_content = title_content.split("\n")[0]
-            translated_content = translator.translate(title_content, src="zh-CN", dest="en")
+            # day amount
+            elif date_list[0] == "2天前" or date_list[0] == "3天前":
+                cur_time = datetime.now()
+                localFormat = "%Y-%m-%d"
+                tz = 'Asia/Shanghai'
+                localDatetime = cur_time.astimezone(pytz.timezone(tz))
+                delta = 2 if date_list[0] == "2天前" else 3
+                local_date = localDatetime - timedelta(days=delta)
+                local_date = local_date.strftime(localFormat)
+        # title
+        translator = Translator()
+        title_content = dynamic_title.split("》")[1]
+        title_content = title_content.split("\n")[0]
+        translated_content = translator.translate(title_content, src="zh-CN", dest="en")
 
-            # link
-            post_links[local_date] = [f"https://www.bilibili.com/opus/{dynamic_id}", translated_content.text]
-            print(f"Found: {local_date}")
+        # link
+        post_links[local_date] = [f"https://www.bilibili.com/opus/{dynamic_id}", translated_content.text]
+        print(f"Found: {local_date}")
 
-        file_path = "dynamics.txt"
-        last_recorded_date = get_last_recorded_date(file_path)
-        find_same_old = last_recorded_date == local_date
-        if find_same_old:
-            print(f"No new post found; Last record: {last_recorded_date}")
-        # download
-        else:
-            print(f"{local_date} Downloaded")
-            download_images(post, local_date)
-            append_most_recent_post(file_path, local_date, post_links[local_date][0], post_links[local_date][1])
-        break
-    print("Posts all done.")
-except Exception as e:
-    print(f"Webpage Open Failed: {e}")
+    file_path = "dynamics.txt"
+    last_recorded_date = get_last_recorded_date(file_path)
+    find_same_old = last_recorded_date == local_date
+    if find_same_old:
+        print(f"No new post found; Last record: {last_recorded_date}")
+    # download
+    else:
+        print(f"{local_date} Downloaded")
+        download_images(post, local_date)
+        append_most_recent_post(file_path, local_date, post_links[local_date][0], post_links[local_date][1])
+    break
+print("Posts all done.")
 
-finally:
-    # Close the browser
-    driver.quit()
+driver.quit()
