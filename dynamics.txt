@@ -44,3 +44,4 @@
 2025-02-17: ["https://www.bilibili.com/opus/1034887660062113799", "Keyverse Et65 magnetic shaft Maicon Jet75 magnetic shaft keyboard will be available tonight Kaihua BOX falcon shaft replenishment"]
 2025-02-18: ["https://www.bilibili.com/opus/1035260471821729796", "ATK RS6 magnetic shaft keyboard is on sale today Logitech Amber series K75M mechanical keyboard new"]
 2025-02-19: ["https://www.bilibili.com/opus/1035635980826050567", "PIIFOX Nezha keycaps are on sale today, Belly Spirit Geo75HE Heartbeat Memories Edition Restock"]
+2025-02-20: ["https://www.bilibili.com/opus/1035998823958183956", "Xinmeng officially announced the new 2u098 A98 AKKO releases dual 8K three-mode mouse Pulse01"]
