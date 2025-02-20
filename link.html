@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Links</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            color: #fff;
+            background-color: #282e38;
+            overflow-x: hidden;
+            line-height: 2.0;
+            text-align: center;
+            padding: 2rem;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            backdrop-filter: blur(5px);
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+        }
+        h1 {
+            margin-bottom: 1rem;
+        }
+        .links {
+            list-style: none;
+            padding: 0;
+        }
+        .links li {
+            margin: 15px 0;
+        }
+        .links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1); /* Frosted glass effect */
+            backdrop-filter: blur(5px);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 15px;
+            transition: 0.5s;
+            font-size: 1.5rem;
+            width: 250px;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+        }
+        .links a:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        .links img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .links li:nth-child(5) img {
+            width: 50px; /* Make Bilibili icon slightly bigger */
+            height: 50px;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #fff;
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .back-btn:hover {
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Links</h1>
+        <ul class="links">
+            <li><a href="https://github.com/ZiyuWang0113" target="_blank"><img src="icons/github.png" alt="GitHub">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/ziyuwang0372/" target="_blank"><img src="icons/linkedin.png" alt="LinkedIn">LinkedIn</a></li>
+            <li><a href="mailto:ziw0372@gmail.com"><img src="icons/gmail.png" alt="Gmail">Gmail</a></li>
+            <li><a href="https://leetcode.cn/0x3fdegou" target="_blank"><img src="icons/leetcode.png" alt="LeetCode">LeetCode</a></li> 
+            <li><a href="https://space.bilibili.com/275823074" target="_blank"><img src="icons/bilibili.png" alt="Bilibili">BiliBili</a></li>
+        </ul>
+        <a href="index.html" class="back-btn">Back to Home</a>
+    </div>
+</body>
+</html>
