@@ -33,8 +33,8 @@ document.addEventListener("DOMContentLoaded", function() {
     main.style.zIndex = "1";
     
     // Bubble content
-    let bubbleTexts = ["About Me", "Computer Science", "Something Interesting", "Other Links"];
-    let bubbleLinks = ["about.html", "#", "#", "link.html"];
+    let bubbleTexts = ["About Me", "Computer Science", "Something Interesting", "My Links"];
+    let bubbleLinks = ["about.html", "#", "interesting.html", "link.html"];
 
     bubbleTexts.forEach((text, index) => {
         let bubble = document.createElement("div");
