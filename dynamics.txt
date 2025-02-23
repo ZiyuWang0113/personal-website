@@ -47,3 +47,4 @@
 2025-02-20: ["https://www.bilibili.com/opus/1035998823958183956", "Xinmeng officially announced the new 2u098 A98 AKKO releases dual 8K three-mode mouse Pulse01"]
 2025-02-21: ["https://www.bilibili.com/opus/1036379843394011143", "EPOMAKER has a new Cypher96 wireless mechanical keyboard. Keydous launches NJ80-CPV2 magnetic shaft keyboard"]
 2025-02-22: ["https://www.bilibili.com/opus/1036746311454425106", "Forward ZAP68 series magnetic shaft keyboard officially released Joykey lab Blue shaft group purchase starts"]
+2025-02-23: ["https://www.bilibili.com/opus/1037113973559787521", "Weika Paper Aircraft D75 officially announced Ningzhi 68Pro RT E-sports Edition Capacitive Keyboard"]
