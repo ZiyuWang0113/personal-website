@@ -51,3 +51,4 @@
 2025-02-24: ["https://www.bilibili.com/opus/1037495100369797122", "AKKO Pulse01 dual 8K wireless mouse is on sale. IQUNIX officially announced the new keyboard FOX98 | FOX99"]
 2025-02-25: ["https://www.bilibili.com/opus/1037866752455737344", "See the real appearance! IQUNIX FOX98/FOX99 keyboard Xinmeng A98 keyboard is released and released on schedule"]
 2025-02-26: ["https://www.bilibili.com/opus/1038230626423013377", "IKYEX Bunny Purple Axle Public Testing Event Opens GoodMood Lab Target Pokémon Master Keycaps Release"]
+2025-02-27: ["https://www.bilibili.com/opus/1038607338006642691", "IQUNIX FOX98/FOX99 officially launches Razer launches Minecraft limited black widow keyboard"]
