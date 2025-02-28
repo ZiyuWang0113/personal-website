@@ -41,7 +41,7 @@ def download_images(post_element, local_date):
     image_containers = post_element.find_elements(By.CLASS_NAME, "bili-album__preview__picture")
     for index, container in enumerate(image_containers[:3]):  # Limit to 3 images
         try:
-            # Locate the img tag within the container
+            # Locate the img tag cd the container
             img_element = container.find_element(By.CSS_SELECTOR, "img")
             img_url = img_element.get_attribute("src")
             # Ensure the image URL is complete
