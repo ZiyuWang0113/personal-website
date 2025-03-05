@@ -55,3 +55,5 @@
 2025-02-28: ["https://www.bilibili.com/opus/1038972358666223617", "Weika Paper Aircraft D75 Bead Quick Removal + Wireless Keyboard On Sale CAPSTUDIO Volt + Keycap On Sale"]
 2025-03-01: ["https://www.bilibili.com/opus/1039345492543144017", "AtelierHaven Haven 65+ kit is scheduled to be released. Hahu peripherals. Shuhu shaft will be available tonight"]
 2025-03-02: ["https://www.bilibili.com/opus/1039718068083752961", "Wolf Spider reveals the appearance of HERO84HE magnetic shaft keyboard. FEKER alice80pro is about to be launched"]
+2025-03-03: ["https://www.bilibili.com/opus/1040087860479262756", "Haven 65+ customized keyboard kit starts tonight. Gauss's new product GS3087T PRO is officially on sale"]
+2025-03-04: ["https://www.bilibili.com/opus/1040456347179548681", "Moyu Shanye Gardenia Shaft is on sale today Wolf Tarantula HERO84HE Magnetic Shaft Keyboard is finalized"]
