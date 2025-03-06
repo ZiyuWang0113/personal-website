@@ -1,6 +1,9 @@
 @echo off
 "C:\Users\ziyuw\anaconda3\python.exe" "D:\Github\personal-website\opus_scraper.py"
 
+REM Pull the latest changes from GitHub to avoid conflicts
+git pull --rebase origin main
+
 REM Add all changes to Git
 git add .
 
