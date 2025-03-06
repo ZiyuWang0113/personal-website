@@ -34,7 +34,7 @@ def download_images(post_element, local_date):
     from urllib.request import urlretrieve
 
     # Create a directory for the images based on the date
-    folder_path = f"images/{local_date}"
+    folder_path = f"D:/Github/personal-website/images/{local_date}"
     os.makedirs(folder_path, exist_ok=True)
 
     # Locate the containers for the images
@@ -93,7 +93,7 @@ def get_last_recorded_date(file_path):
 options = Options()
 options.add_argument("--headless")
 # Set up the WebDriver for Firefox
-service = Service("geckodriver.exe")  # Update this path to where your geckodriver is located
+service = Service("D:/Github/personal-website/geckodriver.exe")  # Update this path to where your geckodriver is located
 driver = webdriver.Firefox(service=service, options=options)
 post_links = {}
 find_same_old = False
@@ -152,6 +152,7 @@ for post in posts:
             date_list = dynamic_date.split(' ')
             # special time
             if date_list[0] == "昨天" or date_list[0] == "前天":
+                print("normal fetch: 昨天")
                 cur_time = datetime.now()
                 localFormat = "%Y-%m-%d"
                 tz = 'Asia/Shanghai'
@@ -178,7 +179,7 @@ for post in posts:
         post_links[local_date] = [f"https://www.bilibili.com/opus/{dynamic_id}", translated_content.text]
         print(f"Found: {local_date}")
 
-    file_path = "dynamics.txt"
+    file_path = "D:/Github/personal-website/dynamics.txt"
     last_recorded_date = get_last_recorded_date(file_path)
     find_same_old = last_recorded_date == local_date
     if find_same_old:
