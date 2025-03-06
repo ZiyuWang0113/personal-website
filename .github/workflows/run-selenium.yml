@@ -1,8 +1,8 @@
 name: Run Selenium Scraper
 
 on:
-  schedule:
-    - cron: '50 14 * * *' # BEIJING 22:50
+  # schedule:
+  #   - cron: '50 14 * * *' # BEIJING 22:50
   workflow_dispatch:  # Allows manual execution
 
 jobs:
