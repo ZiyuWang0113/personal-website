@@ -1,0 +1,33 @@
+name: Auto Commit & Push
+
+on:
+  schedule:
+    - cron: '0 16 * * *'  # Runs at 12:00 PM (Noon) New York Time
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  push_changes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # We will use a PAT for authentication
+
+      - name: Set Up Git
+        run: |
+          git config --global user.name "ZiyuWang0113"
+          git config --global user.email "ziyu_wang2@brown.edu"
+
+      - name: Make Some Changes (Optional)
+        run: |
+          echo "Last update: $(date)" > last_update.txt
+          git add last_update.txt
+
+      - name: Commit and Push
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git commit -m "Auto update $(date)" || echo "No changes to commit"
+          git push https://$GH_PAT@github.com/ZiyuWang0113/personal-website.git main
