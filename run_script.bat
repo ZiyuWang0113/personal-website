@@ -8,7 +8,7 @@ REM Add all changes to Git
 git add .
 
 REM Commit only if there are changes
-git diff --cached --quiet || git commit -m "Auto update on %date% at %time%"
+git diff --cached --quiet || git commit -m "Auto update on %date%"
 
 REM Push changes to GitHub
 git push origin main
