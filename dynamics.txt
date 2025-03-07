@@ -59,3 +59,4 @@
 2025-03-04: ["https://www.bilibili.com/opus/1040456347179548681", "Moyu Shanye Gardenia Shaft is on sale today Wolf Tarantula HERO84HE Magnetic Shaft Keyboard is finalized"]
 2025-03-05: ["https://www.bilibili.com/opus/1040830752357351446", "VERTEX launches V1.2 axis TTC releases new product speed silver axis Little Dick Clock GK75HE magnetic axis keyboard is on the shelves"]
 2025-03-06: ["https://www.bilibili.com/opus/1041200643555983376", "Wuming Eslite GANZO60 kit will be available tonight. Maicong secretly launches the new bead quick release version of GX87 V2"]
+2025-03-07: ["https://www.bilibili.com/opus/1041570998536634368", "KBDfans\' new Agar keyboard officially announced and released BeeFun Cooking Girls Keycaps"]
