@@ -60,3 +60,4 @@
 2025-03-05: ["https://www.bilibili.com/opus/1040830752357351446", "VERTEX launches V1.2 axis TTC releases new product speed silver axis Little Dick Clock GK75HE magnetic axis keyboard is on the shelves"]
 2025-03-06: ["https://www.bilibili.com/opus/1041200643555983376", "Wuming Eslite GANZO60 kit will be available tonight. Maicong secretly launches the new bead quick release version of GX87 V2"]
 2025-03-07: ["https://www.bilibili.com/opus/1041570998536634368", "KBDfans\' new Agar keyboard officially announced and released BeeFun Cooking Girls Keycaps"]
+2025-03-09: ["https://www.bilibili.com/opus/1042312739437936644", "Jike Elite Lio87 will be added pink color soon, KBDfans agar kit will be available soon"]
