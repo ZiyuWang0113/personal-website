@@ -65,4 +65,5 @@
 2025-03-10: ["https://www.bilibili.com/opus/1042679044285399043", "Added color scheme: Weika lucky65v2 Rakka 80Edge magnetic shaft keyboard group purchase is enabled"]
 2025-03-11: ["https://www.bilibili.com/opus/1043057533986537504", "RK will launch the first four-mode link mechanical keyboard. The appearance of AKKO multiple new keyboards is revealed"]
 2025-03-12: ["https://www.bilibili.com/opus/1043430861156909075", "There are also state subsidies for buying keyboards!QwertyKeys AliceDuo Split Kit Starts a Group Tonight"]
+2025-03-13: ["https://www.bilibili.com/opus/1043799072976142342", "Black Jishe launches 2u0 type 98 large keyboard H102 Kaihua mx+box structure Luna axis is scheduled for sale"]
 2025-03-14: ["https://www.bilibili.com/opus/1044160215278157828", "Amilo launches new VA80 Youke wireless three-mode mechanical keyboard ZenithKey moonback civilization R2 keycap group"]
