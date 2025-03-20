@@ -72,3 +72,4 @@
 2025-03-17: ["https://www.bilibili.com/opus/1045280467356483588", "Rabo V700DIY98 wireless three-mode mechanical keyboard is officially released, Numao magnesium aluminum alloy mouse is about to be restocked"]
 2025-03-18: ["https://www.bilibili.com/opus/1045653966277312513", "G·WORKS 04 Emonda aluminum alloy kit group purchase starts Diamond Mantang Luxingxiong starts sale"]
 2025-03-19: ["https://www.bilibili.com/opus/1046026494530289705", "Don\'t worry, it\'s a mechanical axis keyboard!WOB Studio will launch new ZEN 65 mechanical keyboard"]
+2025-03-20: ["https://www.bilibili.com/opus/1046410039407935488", "Black Jue and TTC release custom magnetic shafts, King of Swords, Luo Fei previews new product Return low-axis keyboard"]
