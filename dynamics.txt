@@ -74,3 +74,4 @@
 2025-03-19: ["https://www.bilibili.com/opus/1046026494530289705", "Don\'t worry, it\'s a mechanical axis keyboard!WOB Studio will launch new ZEN 65 mechanical keyboard"]
 2025-03-20: ["https://www.bilibili.com/opus/1046410039407935488", "Black Jue and TTC release custom magnetic shafts, King of Swords, Luo Fei previews new product Return low-axis keyboard"]
 2025-03-21: ["https://www.bilibili.com/opus/1046775051538399241", "Matrix\'s new hydraulic rod kit may be coming!Siliworks launches Songya Axis HC version"]
+2025-03-22: ["https://www.bilibili.com/opus/1047140767969050644", "Full size customized keyboard!DT Balance103/colors 104 renderings leaked"]
