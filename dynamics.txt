@@ -79,3 +79,4 @@
 2025-03-24: ["https://www.bilibili.com/opus/1047885300588609543", "Zhu Dada 7°alice Arend kit deposit group Wanxing Studio releases X keypad kit"]
 2025-03-25: ["https://www.bilibili.com/opus/1048259345005936643", "IQUNIX MQ80 wireless short-axis mechanical keyboard is launched to crowdfund overseas, and is estimated to be not far from being sold in China."]
 2025-03-26: ["https://www.bilibili.com/opus/1048625873186455558", "Colorful rainbow releases 75-mounted mechanical keyboard. ZOOM65 V3 package spring event is open"]
+2025-03-27: ["https://www.bilibili.com/opus/1048996700685860865", "Exclusive color for men Maicong K99 V2 mist peach gradient color IKEYX axis body free experience package activity is opened"]
