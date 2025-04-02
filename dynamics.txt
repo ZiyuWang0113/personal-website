@@ -85,3 +85,4 @@
 2025-03-30: ["https://www.bilibili.com/opus/1050099575242620933", "3204 Hand moistening shaft!Sarokeys Yunying Ace68Air magnetic shaft keyboard will be on sale soon"]
 2025-03-31: ["https://www.bilibili.com/opus/1050481780078936071", "The power is increased again!Forward X87 Ultra is about to go on sale Amilo Muse 65 star Arino"]
 2025-04-01: ["https://www.bilibili.com/opus/1050847200226050055", "Lingbao K98Pro mechanical keyboard is scheduled for release GDKLab DK1-60% kit is available for sale"]
+2025-04-02: ["https://www.bilibili.com/opus/1051227120156540950", "Langtu T98 1W mA battery keyboard is available on the shelves LUMINKEY 98 copper weight limited edition is about to be launched"]
