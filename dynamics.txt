@@ -97,3 +97,4 @@
 2025-04-11: ["https://www.bilibili.com/opus/1054562669032374280", "80Retros GAME1989 65 kit pink version is available. The wolf spider HERO68HE magnetic shaft keyboard is on sale"]
 2025-04-12: ["https://www.bilibili.com/opus/1054933419197202454", "ROG Double New Product Night Magic X/Ranker 2 X Keyboard Preview TDD LAB Moyu 65 Kit is on sale"]
 2025-04-13: ["https://www.bilibili.com/opus/1055297185744158725", "Valkyrie MAG75MAX gasket structure wireless magnetic shaft keyboard officially starts sale"]
+2025-04-14: ["https://www.bilibili.com/opus/1055678797904347142", "Xinmeng Beat68 three-mode magnetic shaft keyboard will be on sale soon. MelGeek O2 three-mode low-mode keyboard will be on sale soon."]
