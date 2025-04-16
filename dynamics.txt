@@ -99,3 +99,4 @@
 2025-04-13: ["https://www.bilibili.com/opus/1055297185744158725", "Valkyrie MAG75MAX gasket structure wireless magnetic shaft keyboard officially starts sale"]
 2025-04-14: ["https://www.bilibili.com/opus/1055678797904347142", "Xinmeng Beat68 three-mode magnetic shaft keyboard will be on sale soon. MelGeek O2 three-mode low-mode keyboard will be on sale soon."]
 2025-04-15: ["https://www.bilibili.com/opus/1056050969686573062", "Xinmeng Beat68 three-mode magnetic shaft keyboard is on sale today. LEOBOG Hi75C series keyboard is on sale"]
+2025-04-16: ["https://www.bilibili.com/opus/1056421539499474951", "PIIFOX Defender 68 Aluminum Alloy Magnetic Shaft Keyboard is on sale WJBY Lab Yinghai Shaft is on the shelves in advance"]
