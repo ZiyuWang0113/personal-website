@@ -101,3 +101,4 @@
 2025-04-15: ["https://www.bilibili.com/opus/1056050969686573062", "Xinmeng Beat68 three-mode magnetic shaft keyboard is on sale today. LEOBOG Hi75C series keyboard is on sale"]
 2025-04-16: ["https://www.bilibili.com/opus/1056421539499474951", "PIIFOX Defender 68 Aluminum Alloy Magnetic Shaft Keyboard is on sale WJBY Lab Yinghai Shaft is on the shelves in advance"]
 2025-04-17: ["https://www.bilibili.com/opus/1056790146445213736", "Cherry MX8.3 Anniversary Limited Aurora version and Aurora axis are on sale NuPhy kick75 is on preheating"]
+2025-04-18: ["https://www.bilibili.com/opus/1057163769970425864", "NuPhy height and low axis switching mechanical keyboard link is announced. Rex RS8 v2 mechanical keyboard is on the shelves"]
