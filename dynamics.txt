@@ -104,3 +104,4 @@
 2025-04-18: ["https://www.bilibili.com/opus/1057163769970425864", "NuPhy height and low axis switching mechanical keyboard link is announced. Rex RS8 v2 mechanical keyboard is on the shelves"]
 2025-04-19: ["https://www.bilibili.com/opus/1057528086251175957", "New headphone fox products, mung bean keycaps on sale, Muru Panda20 V2 wireless three-mode pad is on sale"]
 2025-04-20: ["https://www.bilibili.com/opus/1057898827863818265", "Weika LUCKY80 Quick Disassembly Mechanical Keyboard is about to be launched, QK&ATK jointly releases mass-produced magnetic shaft keyboard"]
+2025-04-21: ["https://www.bilibili.com/opus/1058268998211207201", "Maicong G98 V2 officially launched new, Heiju officially announced ALUX60 aluminum alloy hollow magnetic shaft keyboard"]
