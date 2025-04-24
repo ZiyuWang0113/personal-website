@@ -107,3 +107,4 @@
 2025-04-21: ["https://www.bilibili.com/opus/1058268998211207201", "Maicong G98 V2 officially launched new, Heiju officially announced ALUX60 aluminum alloy hollow magnetic shaft keyboard"]
 2025-04-22: ["https://www.bilibili.com/opus/1058645404839575557", "Keydous AJ68 three-mode low-axis mechanical keyboard is on sale TTC releases two new magnetic shafts"]
 2025-04-23: ["https://www.bilibili.com/opus/1059011641006358534", "SKN Pixiu 4.0 customized model is available today. NuPhy Kick75 high and low shaft switching mechanical keyboard is on the shelves"]
+2025-04-24: ["https://www.bilibili.com/opus/1059389044039876616", "Xiaomi releases Harry Potter joint model MK71pro ROG new products Night Demon X and Ranger 2X to be launched soon"]
