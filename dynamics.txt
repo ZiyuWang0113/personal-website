@@ -109,3 +109,4 @@
 2025-04-23: ["https://www.bilibili.com/opus/1059011641006358534", "SKN Pixiu 4.0 customized model is available today. NuPhy Kick75 high and low shaft switching mechanical keyboard is on the shelves"]
 2025-04-24: ["https://www.bilibili.com/opus/1059389044039876616", "Xiaomi releases Harry Potter joint model MK71pro ROG new products Night Demon X and Ranger 2X to be launched soon"]
 2025-04-25: ["https://www.bilibili.com/opus/1059757689671778324", "ROG Night Magic X mechanical keyboard is on sale today Razer launches vertical ergonomic mouse"]
+2025-04-26: ["https://www.bilibili.com/opus/1060124484179066900", "Neostudio Neo60Core spot group is on sale GLOVE new product ILLUSION keycap early bird group"]
