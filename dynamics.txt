@@ -112,3 +112,4 @@
 2025-04-26: ["https://www.bilibili.com/opus/1060124484179066900", "Neostudio Neo60Core spot group is on sale GLOVE new product ILLUSION keycap early bird group"]
 2025-04-27: ["https://www.bilibili.com/opus/1060496273735417873", "QN peripheral new Sunny Shaft V2 will be on sale tonight MelGeek REAL67 magnetic shaft keyboard will be on sale soon"]
 2025-04-28: ["https://www.bilibili.com/opus/1060864090414514183", "YG new product Songyuexiong first release tonight MelGeek REAL67 magnetic shaft keyboard officially starts sale"]
+2025-04-29: ["https://www.bilibili.com/opus/1061239573676294150", "WOB will launch ZEN65 RT magnetic shaft keyboard WhatEver.Studio PAPER65 officially released"]
