@@ -115,3 +115,4 @@
 2025-04-29: ["https://www.bilibili.com/opus/1061239573676294150", "WOB will launch ZEN65 RT magnetic shaft keyboard WhatEver.Studio PAPER65 officially released"]
 2025-04-30: ["https://www.bilibili.com/opus/1061615018248765442", "0.58 yuan QVQ STUDIO momo shaft is on sale Langtu LT75Pro upgraded mechanical keyboard is on sale"]
 2025-05-01: ["https://www.bilibili.com/opus/1061983058283986952", "Lemokey L5 HE8K deposit pre-sale is open"]
+2025-05-04: ["https://www.bilibili.com/opus/1063089785420120096", "The new NX series of mechanical/magnetic shaft keyboards, new MZ peripheral products, U3 silent shafts,"]
