@@ -117,3 +117,4 @@
 2025-05-01: ["https://www.bilibili.com/opus/1061983058283986952", "Lemokey L5 HE8K deposit pre-sale is open"]
 2025-05-04: ["https://www.bilibili.com/opus/1063089785420120096", "The new NX series of mechanical/magnetic shaft keyboards, new MZ peripheral products, U3 silent shafts,"]
 2025-05-05: ["https://www.bilibili.com/opus/1063464358104793141", "TANNSEN OASIS65 special price 199 yuan FusionLab Vision75 is officially released"]
+2025-05-06: ["https://www.bilibili.com/opus/1063838539969462281", "KBDfans Little Devils Kit Group Purchase is on, ATK EDGE 60HE Master Edition Wolf Team Co-branding is about to be launched"]
