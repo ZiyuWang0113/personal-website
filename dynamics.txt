@@ -121,3 +121,4 @@
 2025-05-07: ["https://www.bilibili.com/opus/1064208968026423304", "Numao is scheduled to be released for limited edition CYBERBOARD Novel 3 Hyperexual Maicong K7 Ultra Limited Collection Rat"]
 2025-05-08: ["https://www.bilibili.com/opus/1064583248639688710", "MM Studio Class65V3 group purchase is enabled Fusion_Lab Vision75 secondary screen kit is launched"]
 2025-05-09: ["https://www.bilibili.com/opus/1064946233537200129", "Key Set Universe QL75 typewriter keyboard is on sale. Wind Studio Wind Xlice package official announcement"]
+2025-05-11: ["https://www.bilibili.com/opus/1065692922163232775", "LUMINKEY NOVAMini will be on sale soon for womier Longteng Sihai new ceramic craft keycaps"]
