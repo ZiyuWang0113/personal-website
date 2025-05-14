@@ -124,3 +124,4 @@
 2025-05-11: ["https://www.bilibili.com/opus/1065692922163232775", "LUMINKEY NOVAMini will be on sale soon for womier Longteng Sihai new ceramic craft keycaps"]
 2025-05-12: ["https://www.bilibili.com/opus/1066067842766471176", "Heijue ALUX60 aluminum alloy magnetic shaft keyboard is about to be launched, and the new NX87 mechanical keyboard of the Bo Ling is scheduled to be released"]
 2025-05-13: ["https://www.bilibili.com/opus/1066436978033033220", "ALUX60 aluminum alloy magnetic shaft keyboard officially goes on sale Maicong K7 Ultra limited edition mouse"]
+2025-05-14: ["https://www.bilibili.com/opus/1066809858491154436", "Zuoce peripheral turquoise shaft new, Bulin NX87 three-mode mechanical keyboard is available today"]
