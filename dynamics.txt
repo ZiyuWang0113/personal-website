@@ -128,3 +128,4 @@
 2025-05-15: ["https://www.bilibili.com/opus/1067185483412406343", "ATK RS6 ASPAS co-branded keyboard Limited gift box is about to be launched soon. Big Star AliceR2 official announcement"]
 2025-05-16: ["https://www.bilibili.com/opus/1067551788294471697", "Forward DEEP68/80 magnetic shaft keyboard officially goes on sale, CBNovel3 is about to be sold in limited quantities soon"]
 2025-05-17: ["https://www.bilibili.com/opus/1067918857678618633", "Xinmeng Beat75 wireless three-mode magnetic shaft keyboard is scheduled to be released, Wooting will launch 60HEv2 magnetic shaft keyboard"]
+2025-05-18: ["https://www.bilibili.com/opus/1068287834042925060", "PMO Lab announces the first Aurora 80 aluminum alloy mechanical keyboard Weika wk102 2U0 category 98 keyboard on shelves"]
