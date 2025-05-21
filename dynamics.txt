@@ -131,3 +131,4 @@
 2025-05-18: ["https://www.bilibili.com/opus/1068287834042925060", "PMO Lab announces the first Aurora 80 aluminum alloy mechanical keyboard Weika wk102 2U0 category 98 keyboard on shelves"]
 2025-05-19: ["https://www.bilibili.com/opus/1068661835487510529", "Xinmeng Beat75 wireless three-mode magnetic shaft keyboard is about to be launched soon. Maicong K7 Ultra mouse will be launched tonight"]
 2025-05-20: ["https://www.bilibili.com/opus/1069040325184454675", "Starting from 99 yuan, ATK A87 series ROG will launch Falcata 75% split wireless magnetic shaft keyboard"]
+2025-05-21: ["https://www.bilibili.com/opus/1069407497627893779", "PMO Lab officially releases Aurora 80 keyboard ATK Dragonfly launches A9 Pro Max wireless mouse"]
