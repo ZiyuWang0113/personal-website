@@ -137,3 +137,4 @@
 2025-05-24: ["https://www.bilibili.com/opus/1070519520543637508", "VGN Lightning 75 Magnetic Shaft Keyboard is on sale soon Link Split Ergo Split Kit is on sale"]
 2025-05-25: ["https://www.bilibili.com/opus/1070885288510750774", "VGN Lightning 75 Magnetic Shaft Keyboard officially launched TTC releases two new Magnetic Shafts"]
 2025-05-26: ["https://www.bilibili.com/opus/1071261171167789060", "Wolf Spider releases new S75Pro smart screen, mechanical keyboard, desktop tribe, BALANCE103 group purchase is launched"]
+2025-05-28: ["https://www.bilibili.com/opus/1072006420993409029", "SKN\'s new product Qinglong 87 dual 8k wireless keyboard HP is here!Official announcement of GT87 three-mode mechanical keyboard"]
