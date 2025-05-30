@@ -139,3 +139,4 @@
 2025-05-26: ["https://www.bilibili.com/opus/1071261171167789060", "Wolf Spider releases new S75Pro smart screen, mechanical keyboard, desktop tribe, BALANCE103 group purchase is launched"]
 2025-05-28: ["https://www.bilibili.com/opus/1072006420993409029", "SKN\'s new product Qinglong 87 dual 8k wireless keyboard HP is here!Official announcement of GT87 three-mode mechanical keyboard"]
 2025-05-29: ["https://www.bilibili.com/opus/1072374452473298951", "PMO Lab Aurora 80 is on sale tonight. Tarantula S75Pro smart screen and mechanical keyboard are on sale."]
+2025-05-30: ["https://www.bilibili.com/opus/1072745520465707062", "MZ peripherals Y2 axis on sale Heiju ALUX60 hollow version restocked tonight"]
