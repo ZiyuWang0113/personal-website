@@ -141,3 +141,4 @@
 2025-05-29: ["https://www.bilibili.com/opus/1072374452473298951", "PMO Lab Aurora 80 is on sale tonight. Tarantula S75Pro smart screen and mechanical keyboard are on sale."]
 2025-05-30: ["https://www.bilibili.com/opus/1072745520465707062", "MZ peripherals Y2 axis on sale Heiju ALUX60 hollow version restocked tonight"]
 2025-05-31: ["https://www.bilibili.com/opus/1073115987139624981", "Fox Lab Lotus80 is on sale tonight Philips Hunter F1 mouse is on sale"]
+2025-06-01: ["https://www.bilibili.com/opus/1073481879698538512", "Rena Lab Bad Sweethearts are available today Big Star Studio Big Star Alice kit is on sale"]
