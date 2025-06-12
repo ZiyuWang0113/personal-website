@@ -152,3 +152,4 @@
 2025-06-09: ["https://www.bilibili.com/opus/1076457037951401988", "Xinmeng M87Lite wireless mechanical keyboard is about to be launched soon. Ruby Lab Ruby75 kit group purchase is launched"]
 2025-06-10: ["https://www.bilibili.com/opus/1076825468821307399", "Starting from 79 yuan, Xinmeng M87Lite wireless keyboard will be released. SKN Qinglong 4.0 dual 8K wireless mechanical keyboard will be launched"]
 2025-06-11: ["https://www.bilibili.com/opus/1077198954861428737", "LEOBOG Hi98 will be launched soon, Razer announces Black Widow Spider V4 75% keyboard kit model"]
+2025-06-12: ["https://www.bilibili.com/opus/1077568751559245825", "Little Rage Meow CB?Red Devils announced the Ice Blade Magnetic Shaft Keyboard VTER JEET65 Kit is on sale today"]
