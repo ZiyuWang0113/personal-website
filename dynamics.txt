@@ -154,3 +154,4 @@
 2025-06-11: ["https://www.bilibili.com/opus/1077198954861428737", "LEOBOG Hi98 will be launched soon, Razer announces Black Widow Spider V4 75% keyboard kit model"]
 2025-06-12: ["https://www.bilibili.com/opus/1077568751559245825", "Little Rage Meow CB?Red Devils announced the Ice Blade Magnetic Shaft Keyboard VTER JEET65 Kit is on sale today"]
 2025-06-13: ["https://www.bilibili.com/opus/1077940880432693250", "The final group of BUFF80R2 kits is opened. The appearance of Luofei\'s new Flow2 low-axis keyboard is exposed"]
+2025-06-14: ["https://www.bilibili.com/opus/1078308074327900160", "NEKEY\'s new Sprig80 kit officially announced LUMINKEY Magger68 magnetic shaft keyboard is scheduled"]
