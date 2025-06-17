@@ -157,3 +157,4 @@
 2025-06-14: ["https://www.bilibili.com/opus/1078308074327900160", "NEKEY\'s new Sprig80 kit officially announced LUMINKEY Magger68 magnetic shaft keyboard is scheduled"]
 2025-06-15: ["https://www.bilibili.com/opus/1078674989110001666", "Black Jue AK980 large-segment magnetic shaft keyboard is on sale, 39g ultra-lightweight Infiq INX dual-mode mouse is on sale"]
 2025-06-16: ["https://www.bilibili.com/opus/1079058817463877657", "Late Spring Cold R2 kit crowd test event starts LUMINKEY Magger68 magnetic shaft keyboard is on sale"]
+2025-06-17: ["https://www.bilibili.com/opus/1079426479548268544", "Steel-free magnetic shaft keyboard may not be far from us. Ningzhi will launch independent axis capacitive keyboard"]
