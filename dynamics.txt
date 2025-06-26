@@ -164,3 +164,4 @@
 2025-06-21: ["https://www.bilibili.com/opus/1080912177462771716", "NE KEY Sprig80 kit is about to be launched soon Wolf Pie Hitboy HK35 single-hand magnetic shaft keyboard announced"]
 2025-06-22: ["https://www.bilibili.com/opus/1081276562454609925", "Details are released!Weika & Mobian Joint Name K-ONE Aluminum Alloy Magnetic Shaft Keyboard Sprig80 Kit is on sale"]
 2025-06-23: ["https://www.bilibili.com/opus/1081651427200204808", "Kailh Kaihua will launch ice cream mini low shaft Kezhi announces Ares98 magnetic shaft keyboard"]
+2025-06-26: ["https://www.bilibili.com/opus/1082767246824046597", "Fanta Lab Vilce-v2 kit is on sale today Lingbao T9Pro headsets are on the shelves"]
