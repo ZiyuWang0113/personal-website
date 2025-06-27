@@ -165,3 +165,4 @@
 2025-06-22: ["https://www.bilibili.com/opus/1081276562454609925", "Details are released!Weika & Mobian Joint Name K-ONE Aluminum Alloy Magnetic Shaft Keyboard Sprig80 Kit is on sale"]
 2025-06-23: ["https://www.bilibili.com/opus/1081651427200204808", "Kailh Kaihua will launch ice cream mini low shaft Kezhi announces Ares98 magnetic shaft keyboard"]
 2025-06-26: ["https://www.bilibili.com/opus/1082767246824046597", "Fanta Lab Vilce-v2 kit is on sale today Lingbao T9Pro headsets are on the shelves"]
+2025-06-27: ["https://www.bilibili.com/opus/1083136171610996744", "ATK&Qk\'s joint Hex80 magnetic shaft keyboard officially announced Wind Studio Wind Xlice kit is finalized"]
