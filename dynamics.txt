@@ -167,3 +167,4 @@
 2025-06-26: ["https://www.bilibili.com/opus/1082767246824046597", "Fanta Lab Vilce-v2 kit is on sale today Lingbao T9Pro headsets are on the shelves"]
 2025-06-27: ["https://www.bilibili.com/opus/1083136171610996744", "ATK&Qk\'s joint Hex80 magnetic shaft keyboard officially announced Wind Studio Wind Xlice kit is finalized"]
 2025-06-28: ["https://www.bilibili.com/opus/1083499203775168514", "Killer Technology Agent Keycult No.1 /1800 Kit is on sale. Wind Xlice Kit details are updated"]
+2025-06-29: ["https://www.bilibili.com/opus/1083873351226621991", "MZ peripherals Y2 axis restocked tonight BeatLab Solar80 kit is on sale"]
