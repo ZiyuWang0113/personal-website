@@ -171,3 +171,4 @@
 2025-06-30: ["https://www.bilibili.com/opus/1084245982578737191", "HAN Late Spring Cold R2 kit is on sale, new MINS HIFI magnetic shaft, Rez shaft is on sale"]
 2025-07-01: ["https://www.bilibili.com/opus/1084600235767889943", "WindStudio Wind Xlice Kit Weika & Mobian Joint K-ONE Aluminum Alloy Magnetic Shaft Keyboard is on sale"]
 2025-07-02: ["https://www.bilibili.com/opus/1084984506492911621", "Heijue MK87 mechanical keyboard will be available tonight ATK&Qk joint brand Hex80 magnetic shaft keyboard release time is scheduled"]
+2025-07-03: ["https://www.bilibili.com/opus/1085359246694940695", "Full-size customized keyboard trailer MM Studio Class100, Ark Studio COLORS104"]
