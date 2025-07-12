@@ -179,3 +179,4 @@
 2025-07-08: ["https://www.bilibili.com/opus/1087220131485974547", "Ark Studio COLORS 104% kit is on sale, MatrixLab sub-brand TOLNTOY 80 kit officially announced"]
 2025-07-09: ["https://www.bilibili.com/opus/1087593931085971496", "URE\'s first mechanical keyboard UR65 is on sale. Lofei Lipstick Keyboard lipstick keyboard is about to be launched"]
 2025-07-10: ["https://www.bilibili.com/opus/1087957482882465800", "ATK&Qk joint brand Hex80 magnetic shaft keyboard will be available tonight Domikey DMK Laby85 kit is on sale"]
+2025-07-11: ["https://www.bilibili.com/opus/1088326300297330695", "Owlab Hellcat Kit Lottery Group Zuoce Studio Cheese Grape Scrolls and Sweet Apricot Grapefruits are on sale"]
