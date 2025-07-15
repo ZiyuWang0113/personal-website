@@ -183,3 +183,4 @@
 2025-07-12: ["https://www.bilibili.com/opus/1088695237999591429", "BW25 ROG booth announced a number of new peripherals, split magnetic shaft keyboard shadow magic official announcement"]
 2025-07-13: ["https://www.bilibili.com/opus/1089073074885623817", "KBDfans Athena 1800 customized keyboard announced evo75 will be available soon"]
 2025-07-14: ["https://www.bilibili.com/opus/1089439615990890502", "TickType evo75 wireless aluminum alloy mechanical keyboard is on sale Lingbao officially announces new K75 mechanical keyboard"]
+2025-07-15: ["https://www.bilibili.com/opus/1089808884375224329", "PMO Lab Aurora 80 Restock WY Lab&HMX Sugar-free Sprite Shaft is officially launched"]
