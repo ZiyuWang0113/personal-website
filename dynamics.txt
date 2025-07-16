@@ -184,3 +184,4 @@
 2025-07-13: ["https://www.bilibili.com/opus/1089073074885623817", "KBDfans Athena 1800 customized keyboard announced evo75 will be available soon"]
 2025-07-14: ["https://www.bilibili.com/opus/1089439615990890502", "TickType evo75 wireless aluminum alloy mechanical keyboard is on sale Lingbao officially announces new K75 mechanical keyboard"]
 2025-07-15: ["https://www.bilibili.com/opus/1089808884375224329", "PMO Lab Aurora 80 Restock WY Lab&HMX Sugar-free Sprite Shaft is officially launched"]
+2025-07-16: ["https://www.bilibili.com/opus/1090191364087349248", "IPI Aurora Platinum Collector Edition Magnetic shaft keyboard is launched, Mechanic releases KG98 three-mode mechanical keyboard"]
