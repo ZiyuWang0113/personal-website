@@ -185,3 +185,4 @@
 2025-07-14: ["https://www.bilibili.com/opus/1089439615990890502", "TickType evo75 wireless aluminum alloy mechanical keyboard is on sale Lingbao officially announces new K75 mechanical keyboard"]
 2025-07-15: ["https://www.bilibili.com/opus/1089808884375224329", "PMO Lab Aurora 80 Restock WY Lab&HMX Sugar-free Sprite Shaft is officially launched"]
 2025-07-16: ["https://www.bilibili.com/opus/1090191364087349248", "IPI Aurora Platinum Collector Edition Magnetic shaft keyboard is launched, Mechanic releases KG98 three-mode mechanical keyboard"]
+2025-07-17: ["https://www.bilibili.com/opus/1090557484290015316", "Weika\'s new product Nut NUT65 magnetic quick disassembly structure Wireless three-mode aluminum alloy mechanical keyboard officially pre-ordered"]
