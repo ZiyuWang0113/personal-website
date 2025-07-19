@@ -187,3 +187,4 @@
 2025-07-16: ["https://www.bilibili.com/opus/1090191364087349248", "IPI Aurora Platinum Collector Edition Magnetic shaft keyboard is launched, Mechanic releases KG98 three-mode mechanical keyboard"]
 2025-07-17: ["https://www.bilibili.com/opus/1090557484290015316", "Weika\'s new product Nut NUT65 magnetic quick disassembly structure Wireless three-mode aluminum alloy mechanical keyboard officially pre-ordered"]
 2025-07-18: ["https://www.bilibili.com/opus/1090927323893465094", "MMD Jiyao C1 magnetic shaft is on sale, Craftsman College AMX80 wooden shell kit is in the group"]
+2025-07-19: ["https://www.bilibili.com/opus/1091295978121592838", "NuPhy kick75 high-axis keyboard is available for sale IQUNIX FOX series 75/80 keyboard"]
