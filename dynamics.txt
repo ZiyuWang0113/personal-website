@@ -190,3 +190,4 @@
 2025-07-19: ["https://www.bilibili.com/opus/1091295978121592838", "NuPhy kick75 high-axis keyboard is available for sale IQUNIX FOX series 75/80 keyboard"]
 2025-07-20: ["https://www.bilibili.com/opus/1091664035338780742", "The first MZ peripheral device, Y3 magnetic shaft group purchase is launched, and two new products, Jiuzi, are on sale"]
 2025-07-21: ["https://www.bilibili.com/opus/1092044277392867331", "New version of the Wolf Spider F108 mechanical keyboard, silent shaft model is available for sale SCAT&SPM Longan silent shaft"]
+2025-07-22: ["https://www.bilibili.com/opus/1092417900919128081", "CC TonishTKL kit is on sale today Duga has been silent for a long time New FNP60 magnetic shaft keyboard preview"]
