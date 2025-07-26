@@ -194,3 +194,4 @@
 2025-07-23: ["https://www.bilibili.com/opus/1092776135528284192", "VGN will launch a joint V98Pro V3 mechanical keyboard, Razer Cobra Extreme Edition wireless mouse on sale"]
 2025-07-24: ["https://www.bilibili.com/opus/1093156884373831684", "Neo Studio\'s new Neo65 Core Plus kit is released. The new Neo Studio AM RGB65 R1.5 is on sale"]
 2025-07-25: ["https://www.bilibili.com/opus/1093533196510822455", "Kaihua releases switchable linear/parameter dual-mode axis MIX series Viagra Nut NUT65 on sale"]
+2025-07-26: ["https://www.bilibili.com/opus/1093884065320271893", "OFF STUDIO new product Blue Tears silent shaft group TOUCHKEYS NOVA75 R2 kit tail group"]
