@@ -198,3 +198,4 @@
 2025-07-27: ["https://www.bilibili.com/opus/1094247806081695752", "iLovbee silent shaft model B98 retro gray color matching mechanical keyboard is about to be on sale MZ peripherals Y2 axis Restock"]
 2025-07-28: ["https://www.bilibili.com/opus/1094696097564065811", "WOB ZEN65 mechanical keyboard is scheduled to be sold Lingbao K75 series mechanical keyboard is available today"]
 2025-07-29: ["https://www.bilibili.com/opus/1095007104788332545", "KBDfans Athena 1800 kit is about to be launched soon, and the official release of the Tactic L99 touch screen keyboard"]
+2025-07-30: ["https://www.bilibili.com/opus/1095372374537142291", "NuPhy Air75 V3 low-axis keyboard is on sale KBDcraft 03 Sachiel assembled building block keyboard is on sale"]
