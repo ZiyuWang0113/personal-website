@@ -200,3 +200,4 @@
 2025-07-29: ["https://www.bilibili.com/opus/1095007104788332545", "KBDfans Athena 1800 kit is about to be launched soon, and the official release of the Tactic L99 touch screen keyboard"]
 2025-07-30: ["https://www.bilibili.com/opus/1095372374537142291", "NuPhy Air75 V3 low-axis keyboard is on sale KBDcraft 03 Sachiel assembled building block keyboard is on sale"]
 2025-07-31: ["https://www.bilibili.com/opus/1095758389052440577", "NeoStudio Neo65 Core Plus kit is available for sale Guantai Extreme Magnetic Ink Jade Shaft"]
+2025-08-01: ["https://www.bilibili.com/opus/1096127773369434162", "WOB ZEN65 mechanical keyboard is on sale today WhatEver.Studio #PAPER 65% kit group opening"]
