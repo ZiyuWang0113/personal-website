@@ -201,3 +201,4 @@
 2025-07-30: ["https://www.bilibili.com/opus/1095372374537142291", "NuPhy Air75 V3 low-axis keyboard is on sale KBDcraft 03 Sachiel assembled building block keyboard is on sale"]
 2025-07-31: ["https://www.bilibili.com/opus/1095758389052440577", "NeoStudio Neo65 Core Plus kit is available for sale Guantai Extreme Magnetic Ink Jade Shaft"]
 2025-08-01: ["https://www.bilibili.com/opus/1096127773369434162", "WOB ZEN65 mechanical keyboard is on sale today WhatEver.Studio #PAPER 65% kit group opening"]
+2025-08-02: ["https://www.bilibili.com/opus/1096494688155729924", "VGN V98Pro V3 is on sale Armorsuit Mickey65R2 is on sale"]
