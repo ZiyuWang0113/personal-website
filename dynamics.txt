@@ -203,3 +203,4 @@
 2025-08-01: ["https://www.bilibili.com/opus/1096127773369434162", "WOB ZEN65 mechanical keyboard is on sale today WhatEver.Studio #PAPER 65% kit group opening"]
 2025-08-02: ["https://www.bilibili.com/opus/1096494688155729924", "VGN V98Pro V3 is on sale Armorsuit Mickey65R2 is on sale"]
 2025-08-03: ["https://www.bilibili.com/opus/1096863256459345926", "Heijue T520 three-mode carbon fiber mouse is about to be launched. Matrix Lab NOSTATION kit is launched."]
+2025-08-04: ["https://www.bilibili.com/opus/1097239160630018071", "Razer Cobra Extreme Edition Mouse is on sale TTC releases the fast gold axis V3 first launched with Maicong K87S keyboard"]
