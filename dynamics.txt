@@ -208,3 +208,4 @@
 2025-08-07: ["https://www.bilibili.com/opus/1098349134767718407", "Graystudio Space80 kit is scheduled to be released ATK Platypus Mouse is available today"]
 2025-08-09: ["https://www.bilibili.com/opus/1099087156174913619", "Weika NUT65 three-mode aluminum alloy mechanical keyboard replenishment Mikewei Reel to Reel keycaps on sale"]
 2025-08-10: ["https://www.bilibili.com/opus/1099461342343987201", "XLLAB&HMX Cloud Tianyun Success V2 Group Opening Russ.works Velora 80% Kit is available for sale"]
+2025-08-11: ["https://www.bilibili.com/opus/1099839071836962833", "Graystudio Space80 kit starts a group today Maicong G3 V2 Pro wireless mouse is on sale"]
