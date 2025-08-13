@@ -210,3 +210,4 @@
 2025-08-10: ["https://www.bilibili.com/opus/1099461342343987201", "XLLAB&HMX Cloud Tianyun Success V2 Group Opening Russ.works Velora 80% Kit is available for sale"]
 2025-08-11: ["https://www.bilibili.com/opus/1099839071836962833", "Graystudio Space80 kit starts a group today Maicong G3 V2 Pro wireless mouse is on sale"]
 2025-08-12: ["https://www.bilibili.com/opus/1100207459783409672", "Kaiku Y98 mechanical keyboard is on sale HP GT87 Ultra mechanical keyboard updated large battery version"]
+2025-08-13: ["https://www.bilibili.com/opus/1100575401046966276", "ROG Shadow Magic Wireless Split Magnetic Shaft Keyboard Dragon Scale 2 Mouse on sale Maicong A7X Ultra Magnesium Alloy on the shelves"]
