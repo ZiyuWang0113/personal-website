@@ -215,3 +215,4 @@
 2025-08-15: ["https://www.bilibili.com/opus/1101317137584095284", "LEOBOG Hi65 semi-aluminum mechanical keyboard is on sale today Razer Black Widow Spider V4 short shaft speed version is on the shelves"]
 2025-08-16: ["https://www.bilibili.com/opus/1101688927129960453", "SENSY LAB Smoke65 kit is on sale Razer Viper V3 Pokémon Pikachu co-branded mouse"]
 2025-08-17: ["https://www.bilibili.com/opus/1102053174732128324", "Weika Stars21plus pad keyboard is on sale, Paisix X2F fifth anniversary limited special edition mouse is on the shelves"]
+2025-08-18: ["https://www.bilibili.com/opus/1102429366629957637", "Asun H75 wireless three-mode mechanical keyboard is on sale VGN Dragonfly F2 mouse is on sale"]
