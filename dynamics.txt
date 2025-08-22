@@ -219,3 +219,4 @@
 2025-08-19: ["https://www.bilibili.com/opus/1102808865591787555", "ATK RS7 V2 magnetic shaft keyboard is on sale MatrixLab sub-brand TOLNTOY new product 87 kit is finalized"]
 2025-08-20: ["https://www.bilibili.com/opus/1103176454671171590", "VTET JEET65PRO cheapest 0.001mm aluminum alloy magnetic shaft keyboard on the entire network is on sale"]
 2025-08-21: ["https://www.bilibili.com/opus/1103551804745973764", "Titan Elite T87 mechanical keyboard is on sale ATK Liekong U2 Mini mouse is on sale"]
+2025-08-22: ["https://www.bilibili.com/opus/1103911254842408969", "PMO Lab Aurora 80 mechanical keyboard new color scheme is available for sale Miroooo Lab M1 axis"]
