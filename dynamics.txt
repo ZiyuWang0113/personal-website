@@ -225,3 +225,4 @@
 2025-08-25: ["https://www.bilibili.com/opus/1105022049349271625", "CSO STUDIO SOUL 65 kit starts a group tonight. The appearance of the Buff LAB Buff98 kit is announced."]
 2025-08-26: ["https://www.bilibili.com/opus/1105401045853405203", "New Machine Bee BJ100A 2u0 Category 98 Wireless Three-Mode Mechanical Keyboard is on sale ESU67 Keyboard Gift Box"]
 2025-08-27: ["https://www.bilibili.com/opus/1105770898413060097", "Dry Studio ATM 98 kit opens crowd testing group ATK RS6 Ultra Pink Blade Elf Renewal Edition is available"]
+2025-08-28: ["https://www.bilibili.com/opus/1106143435302109185", "BUFF LAB BUFF98 kit starts a group today KBDfans TOFU TKL kit starts sale"]
