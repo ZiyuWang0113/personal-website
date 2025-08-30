@@ -227,3 +227,4 @@
 2025-08-27: ["https://www.bilibili.com/opus/1105770898413060097", "Dry Studio ATM 98 kit opens crowd testing group ATK RS6 Ultra Pink Blade Elf Renewal Edition is available"]
 2025-08-28: ["https://www.bilibili.com/opus/1106143435302109185", "BUFF LAB BUFF98 kit starts a group today KBDfans TOFU TKL kit starts sale"]
 2025-08-29: ["https://www.bilibili.com/opus/1106511771686928393", "Weika MAX102 large-size mechanical keyboard is scheduled to be released. Neo Studio Neo80Cu kit is announced"]
+2025-08-30: ["https://www.bilibili.com/opus/1106873266179407908", "LuckyPudding Studio Mango Pudding Shaft is on sale MatrixLab NOOS WING Kit is scheduled"]
