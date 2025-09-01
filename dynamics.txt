@@ -229,3 +229,4 @@
 2025-08-29: ["https://www.bilibili.com/opus/1106511771686928393", "Weika MAX102 large-size mechanical keyboard is scheduled to be released. Neo Studio Neo80Cu kit is announced"]
 2025-08-30: ["https://www.bilibili.com/opus/1106873266179407908", "LuckyPudding Studio Mango Pudding Shaft is on sale MatrixLab NOOS WING Kit is scheduled"]
 2025-08-31: ["https://www.bilibili.com/opus/1107247735805837329", "Three Giants SG87 mechanical keyboard is on sale today."]
+2025-09-01: ["https://www.bilibili.com/opus/1107624997157863432", "Cherry\'s new Falcon Machinery Shaft is on sale, Jiadalong Parameter Magnetic Shaft, Longyin Shaft is on the shelf"]
