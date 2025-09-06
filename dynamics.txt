@@ -233,3 +233,4 @@
 2025-09-03: ["https://www.bilibili.com/opus/1108358865313857537", "Yushu Electronics Yushu X series axes are on sale Logitech launches new G Pro X Superlight 2c mouse overseas"]
 2025-09-04: ["https://www.bilibili.com/opus/1108736259765829636", "AMCYBERBOARD Journey to the West Mechanical Keyboard is on sale today Damo Shark M3 V2 wireless mouse is on the shelves"]
 2025-09-05: ["https://www.bilibili.com/opus/1109113628463726617", "Wolf Spider F87Pro V2 wireless three-mode keyboard officially released Weika MAX102 aluminum alloy keyboard released"]
+2025-09-06: ["https://www.bilibili.com/opus/1109476682090151971", "Xinmeng M87 Ultra wireless three-mode mechanical keyboard is on sale"]
