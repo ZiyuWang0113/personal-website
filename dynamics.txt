@@ -235,3 +235,4 @@
 2025-09-05: ["https://www.bilibili.com/opus/1109113628463726617", "Wolf Spider F87Pro V2 wireless three-mode keyboard officially released Weika MAX102 aluminum alloy keyboard released"]
 2025-09-06: ["https://www.bilibili.com/opus/1109476682090151971", "Xinmeng M87 Ultra wireless three-mode mechanical keyboard is on sale"]
 2025-09-07: ["https://www.bilibili.com/opus/1109845808758390785", "KEMOVE launches T68E/81E mechanical keyboard. Zuilu\'s new magnetic shaft X60futuer will be released soon"]
+2025-09-08: ["https://www.bilibili.com/opus/1110222120927887369", "XL LAB K01 tea shaft group starts Xinmeng M87 Ultra wireless three-mode mechanical keyboard is about to be launched"]
