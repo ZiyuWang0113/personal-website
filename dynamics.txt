@@ -237,3 +237,4 @@
 2025-09-07: ["https://www.bilibili.com/opus/1109845808758390785", "KEMOVE launches T68E/81E mechanical keyboard. Zuilu\'s new magnetic shaft X60futuer will be released soon"]
 2025-09-08: ["https://www.bilibili.com/opus/1110222120927887369", "XL LAB K01 tea shaft group starts Xinmeng M87 Ultra wireless three-mode mechanical keyboard is about to be launched"]
 2025-09-09: ["https://www.bilibili.com/opus/1110593987776872457", "Xinmeng M87 Ultra three-mode mechanical keyboard Heiju ALUX68Air hollow aluminum alloy magnetic shaft keyboard is on sale"]
+2025-09-10: ["https://www.bilibili.com/opus/1110966906892845080", "Matrix Lab NOOS WING small PAD kit starts a group AKKO2025 Snake Year limited mechanical keyboard exposed"]
