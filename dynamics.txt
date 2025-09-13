@@ -240,3 +240,4 @@
 2025-09-10: ["https://www.bilibili.com/opus/1110966906892845080", "Matrix Lab NOOS WING small PAD kit starts a group AKKO2025 Snake Year limited mechanical keyboard exposed"]
 2025-09-11: ["https://www.bilibili.com/opus/1111335479526031369", "IQUNIX MQ80 thin mechanical key configuration announced Swagkeys & JJW Integral points kit is available"]
 2025-09-12: ["https://www.bilibili.com/opus/1111708458787274753", "Neo Studio Neo80 Cu kit is on sale Kezewa Envy65 kit is on sale"]
+2025-09-13: ["https://www.bilibili.com/opus/1112072629062205480", "Two unique mouses that have never been seen. Anthem Studio Spring 80 set up a group"]
