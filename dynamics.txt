@@ -244,3 +244,4 @@
 2025-09-14: ["https://www.bilibili.com/opus/1112445810176426007", "ilovbee B98 new color scheme Taoyao is about to be launched, Vk Valkyrie M3 series mouse is newly upgraded"]
 2025-09-15: ["https://www.bilibili.com/opus/1112818102243950597", "LODK Fire Phoenix Axis Opens a Group Today HP HP GT98 Mechanical Keyboard Opens Sales"]
 2025-09-16: ["https://www.bilibili.com/opus/1113190823758921735", "Dry Studio ATM98 mechanical keyboard is on sale Rena Lab Bad Sweetheart Silent Edition is on sale"]
+2025-09-17: ["https://www.bilibili.com/opus/1113558984081539107", "WOB ZEN65 launches snow-top cocoa shaft version YG Studio Ice lotus shaft is on sale"]
