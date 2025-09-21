@@ -246,3 +246,4 @@
 2025-09-16: ["https://www.bilibili.com/opus/1113190823758921735", "Dry Studio ATM98 mechanical keyboard is on sale Rena Lab Bad Sweetheart Silent Edition is on sale"]
 2025-09-17: ["https://www.bilibili.com/opus/1113558984081539107", "WOB ZEN65 launches snow-top cocoa shaft version YG Studio Ice lotus shaft is on sale"]
 2025-09-20: ["https://www.bilibili.com/opus/1114671969025916960", "Logitech\'s new small GPW4 mouse G515 short magnetic shaft keyboard is on sale XLLAB Orange Silver Shaft V2 group opening"]
+2025-09-21: ["https://www.bilibili.com/opus/1115038364070838323", "Razer will launch Delta Operation Co-branded peripherals PIIFOX to complete the plan for metallic painted keycaps to be sold"]
