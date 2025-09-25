@@ -250,3 +250,4 @@
 2025-09-22: ["https://www.bilibili.com/opus/1115415612510699528", "WuqueStudio officially announced new products ZOOM64, 104 kits, Gaote, silent linear, pink butterfly shaft on shelves"]
 2025-09-23: ["https://www.bilibili.com/opus/1115785035553701888", "Cheese axis v2 group, Weika Nut NUT65 delayed replenishment, LEOBOG new product strawberry mint axis official announcement"]
 2025-09-24: ["https://www.bilibili.com/opus/1116154677632696344", "TreeBM70 solid wood kit opening group VGN Dragonfly King closed magnesium alloy wireless mouse setting"]
+2025-09-25: ["https://www.bilibili.com/opus/1116526153655386153", "ATK A9 Ultimate Master Edition Mouse is on sale, Rappo VT9 second generation is on sale, Weika NUT65 restocking"]
