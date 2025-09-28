@@ -253,3 +253,4 @@
 2025-09-25: ["https://www.bilibili.com/opus/1116526153655386153", "ATK A9 Ultimate Master Edition Mouse is on sale, Rappo VT9 second generation is on sale, Weika NUT65 restocking"]
 2025-09-26: ["https://www.bilibili.com/opus/1116897406345019474", "WOB ZEN65RT magnetic shaft keyboard is on sale VGN Neon Super Competition Magnetic shaft keyboard is on shelves, Yuglass R2 replenishment"]
 2025-09-27: ["https://www.bilibili.com/opus/1117265034035068929", "Infi100 added a new pro version to increase battery replacement for customized shaft body Brian Workshop B1 shaft replenishment"]
+2025-09-28: ["https://www.bilibili.com/opus/1117642230978314247", "Cherry Light Pressure Section Tea Roller MXPETAL Petal Roller Official Announcement Headphones Fox Shy Pink Keycap Early Bird Group Opens"]
