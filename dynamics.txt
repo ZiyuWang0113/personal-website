@@ -258,3 +258,4 @@
 2025-09-30: ["https://www.bilibili.com/opus/1118389233173659654", "Maicong\'s new G75 V2 officially announced the release of CHERRY Cherry officially announced the launch of a major new keyboard"]
 2025-10-01: ["https://www.bilibili.com/opus/1118749778437472297", "VGN V98Pro V3 new color scheme XL LAB purple potato silent shaft replenishment"]
 2025-10-02: ["https://www.bilibili.com/opus/1119108090417905665", "Etar87 FRL Customized Keyboard Kit Presale Group Magnetic Shaft Patent Announcement"]
+2025-10-03: ["https://www.bilibili.com/opus/1119485321675800598", "SKN Qinglong 2U098 keyboard adds retro color scheme Rain Miroooo Lab M1 axis to restock tonight"]
