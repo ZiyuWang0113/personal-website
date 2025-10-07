@@ -262,3 +262,4 @@
 2025-10-04: ["https://www.bilibili.com/opus/1119856612991827970", "YIGIIX & Kaihua Kailh new product Xuanmo shaft is about to be launched. Discover a new brand Huojie Liaoyuan 75 Machinery"]
 2025-10-05: ["https://www.bilibili.com/opus/1120230958083080193", "Do you like the keyboard with left 87?Black Jue hollow shell 87 appearance!Window Chief Official Announces Dopamine Axis NL Version"]
 2025-10-06: ["https://www.bilibili.com/opus/1120592972244582400", "FOCUS LAB Ctrl100: Electric angle adjustment large-selectrode keyboard VGN V87v2 official announcement"]
+2025-10-07: ["https://www.bilibili.com/opus/1120979944561704967", "Kezhi RK both announced new keyboards Akko launches keyboard phone case"]
