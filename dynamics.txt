@@ -264,3 +264,4 @@
 2025-10-06: ["https://www.bilibili.com/opus/1120592972244582400", "FOCUS LAB Ctrl100: Electric angle adjustment large-selectrode keyboard VGN V87v2 official announcement"]
 2025-10-07: ["https://www.bilibili.com/opus/1120979944561704967", "Kezhi RK both announced new keyboards Akko launches keyboard phone case"]
 2025-10-08: ["https://www.bilibili.com/opus/1121327854031732761", "Vika will start a group purchase of NUT65-CU documents, Esu67 launches a kit group, and Rapoo VT0 mouse will go on sale."]
+2025-10-09: ["https://www.bilibili.com/opus/1121728815009103875", "Rog released a preview of the large-sized Night Demon 96HE magnetic axis keyboard on its external website. Wolf Spider will launch an inductive axis keyboard."]
