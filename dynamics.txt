@@ -268,3 +268,4 @@
 2025-10-10: ["https://www.bilibili.com/opus/1122096429892894768", "CHERRY Cherry MX petal shaft new paragraph tea shaft is on sale infi65 wireless three-mode model has the appearance"]
 2025-10-11: ["https://www.bilibili.com/opus/1122461003869585413", "Amilo launches wireless three-mode hot-swappable electrostatic capacitive keyboard, new color options for Tarantula F87Pro V2 keyboard"]
 2025-10-12: ["https://www.bilibili.com/opus/1122838321037312016", "Vika NUT65-CU kit launches today, Wolf Spider announces new product NOVA75 smart screen mechanical keyboard"]
+2025-10-13: ["https://www.bilibili.com/opus/1123210174998249477", "Forerunner X87HE Pro Dragon Yin Shaft Edition is on sale today Feather Silent Shaft New Feather Silent Shaft"]
