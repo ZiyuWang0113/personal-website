@@ -270,3 +270,4 @@
 2025-10-12: ["https://www.bilibili.com/opus/1122838321037312016", "Vika NUT65-CU kit launches today, Wolf Spider announces new product NOVA75 smart screen mechanical keyboard"]
 2025-10-13: ["https://www.bilibili.com/opus/1123210174998249477", "Forerunner X87HE Pro Dragon Yin Shaft Edition is on sale today Feather Silent Shaft New Feather Silent Shaft"]
 2025-10-14: ["https://www.bilibili.com/opus/1123583600960208899", "Singmeng\'s new flagship S87Pro wireless three-mode mechanical keyboard will be on sale soon. Many new ROG products will be released soon."]
+2025-10-15: ["https://www.bilibili.com/opus/1123948784867344384", "VGN Dragonfly King aluminum alloy mouse is on sale PMO Lab Aurora 80 Aurora Pink limited color is on sale"]
