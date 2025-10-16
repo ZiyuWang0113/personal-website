@@ -271,3 +271,4 @@
 2025-10-13: ["https://www.bilibili.com/opus/1123210174998249477", "Forerunner X87HE Pro Dragon Yin Shaft Edition is on sale today Feather Silent Shaft New Feather Silent Shaft"]
 2025-10-14: ["https://www.bilibili.com/opus/1123583600960208899", "Singmeng\'s new flagship S87Pro wireless three-mode mechanical keyboard will be on sale soon. Many new ROG products will be released soon."]
 2025-10-15: ["https://www.bilibili.com/opus/1123948784867344384", "VGN Dragonfly King aluminum alloy mouse is on sale PMO Lab Aurora 80 Aurora Pink limited color is on sale"]
+2025-10-16: ["https://www.bilibili.com/opus/1124322391183327267", "ROG Night Demon 98HE, Silver Night Demon EX released today NuPhy officially announced the new WH80 wireless magnetic keyboard"]
