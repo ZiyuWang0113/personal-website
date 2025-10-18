@@ -273,3 +273,4 @@
 2025-10-15: ["https://www.bilibili.com/opus/1123948784867344384", "VGN Dragonfly King aluminum alloy mouse is on sale PMO Lab Aurora 80 Aurora Pink limited color is on sale"]
 2025-10-16: ["https://www.bilibili.com/opus/1124322391183327267", "ROG Night Demon 98HE, Silver Night Demon EX released today NuPhy officially announced the new WH80 wireless magnetic keyboard"]
 2025-10-17: ["https://www.bilibili.com/opus/1124697144261869573", "HYPERX is extremely unknown. Hurricane colorful version of wireless headphones is on the shelves. Razer releases a variety of Phantom White peripherals."]
+2025-10-18: ["https://www.bilibili.com/opus/1125038804561821701", "Forerunners have exposed a number of new products, the hydraulic lever 87 keyboard!VGN S99 classic keyboard quietly returns"]
