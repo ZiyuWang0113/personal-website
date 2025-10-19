@@ -274,3 +274,4 @@
 2025-10-16: ["https://www.bilibili.com/opus/1124322391183327267", "ROG Night Demon 98HE, Silver Night Demon EX released today NuPhy officially announced the new WH80 wireless magnetic keyboard"]
 2025-10-17: ["https://www.bilibili.com/opus/1124697144261869573", "HYPERX is extremely unknown. Hurricane colorful version of wireless headphones is on the shelves. Razer releases a variety of Phantom White peripherals."]
 2025-10-18: ["https://www.bilibili.com/opus/1125038804561821701", "Forerunners have exposed a number of new products, the hydraulic lever 87 keyboard!VGN S99 classic keyboard quietly returns"]
+2025-10-19: ["https://www.bilibili.com/opus/1125429869962854423", "Kaihua’s new product, Moyuan short switch, is on sale. Maicong Ace 68 Turbo aluminum alloy magnetic switch keyboard will be released soon."]
