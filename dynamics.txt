@@ -277,3 +277,4 @@
 2025-10-19: ["https://www.bilibili.com/opus/1125429869962854423", "Kaihua’s new product, Moyuan short switch, is on sale. Maicong Ace 68 Turbo aluminum alloy magnetic switch keyboard will be released soon."]
 2025-10-20: ["https://www.bilibili.com/opus/1125807105532493829", "NuMiao Mirror Shadow Color Magnesium Alloy Wireless Mouse is on Sale. Forerunner X87S Wireless Three-Mode Mechanical Keyboard is on Sale."]
 2025-10-21: ["https://www.bilibili.com/opus/1126177722553335826", "ATK A98 Pro mechanical keyboard goes on sale today, Content Shadow Silent Switches/Zen Tea Silent Switches are on sale"]
+2025-10-22: ["https://www.bilibili.com/opus/1126549778348376084", "NuPhy WH80 wireless three-mode magnetic axis keyboard is on sale VGN Dragonfly King wireless magnesium alloy mouse is in stock"]
