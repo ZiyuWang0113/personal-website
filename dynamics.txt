@@ -280,3 +280,4 @@
 2025-10-22: ["https://www.bilibili.com/opus/1126549778348376084", "NuPhy WH80 wireless three-mode magnetic axis keyboard is on sale VGN Dragonfly King wireless magnesium alloy mouse is in stock"]
 2025-10-23: ["https://www.bilibili.com/opus/1126917401808470020", "The QwertyKeys 65KMK3 kit is scheduled to be released, and the ROG Night Stalker EX SE limited set will be available for pre-order."]
 2025-10-24: ["https://www.bilibili.com/opus/1127294336752418817", "Wolf Spider\'s new product nova 75 wireless three-mode mechanical keyboard is on sale. Kaihua\'s new product Ice Cream Magnetic Switch is on sale."]
+2025-10-25: ["https://www.bilibili.com/opus/1127655384587173938", "Razer launches gaming green series peripherals Key to Mars SCC80 wireless quick release kit on shelves"]
