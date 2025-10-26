@@ -281,3 +281,4 @@
 2025-10-23: ["https://www.bilibili.com/opus/1126917401808470020", "The QwertyKeys 65KMK3 kit is scheduled to be released, and the ROG Night Stalker EX SE limited set will be available for pre-order."]
 2025-10-24: ["https://www.bilibili.com/opus/1127294336752418817", "Wolf Spider\'s new product nova 75 wireless three-mode mechanical keyboard is on sale. Kaihua\'s new product Ice Cream Magnetic Switch is on sale."]
 2025-10-25: ["https://www.bilibili.com/opus/1127655384587173938", "Razer launches gaming green series peripherals Key to Mars SCC80 wireless quick release kit on shelves"]
+2025-10-26: ["https://www.bilibili.com/opus/1128032761876054016", "American Lion TITAN68 Turbo magnetic axis keyboard is scheduled to be released soon. New forged carbon texture keycaps on womier"]
