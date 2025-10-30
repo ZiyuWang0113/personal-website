@@ -284,3 +284,4 @@
 2025-10-26: ["https://www.bilibili.com/opus/1128032761876054016", "American Lion TITAN68 Turbo magnetic axis keyboard is scheduled to be released soon. New forged carbon texture keycaps on womier"]
 2025-10-27: ["https://www.bilibili.com/opus/1128406033188782080", "Use it if you have light!Logitech K980 Wireless Solar Keyboard Maicong Ace 68Turbo Magnetic Axis Keyboard"]
 2025-10-28: ["https://www.bilibili.com/opus/1128775550697996294", "SKN Qinglong 4.0Ultra Wireless Dual 8K Mechanical Keyboard is on sale, monster keys create alien object keycaps"]
+2025-10-30: ["https://www.bilibili.com/opus/1129520053215035416", "VGN V87V2|NDNH Inkstoneless ND104 is now on sale|PSC2.S1&S2 kit|VGN Dragonfly King is on sale"]
