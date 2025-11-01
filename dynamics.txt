@@ -286,3 +286,4 @@
 2025-10-28: ["https://www.bilibili.com/opus/1128775550697996294", "SKN Qinglong 4.0Ultra Wireless Dual 8K Mechanical Keyboard is on sale, monster keys create alien object keycaps"]
 2025-10-30: ["https://www.bilibili.com/opus/1129520053215035416", "VGN V87V2|NDNH Inkstoneless ND104 is now on sale|PSC2.S1&S2 kit|VGN Dragonfly King is on sale"]
 2025-10-31: ["https://www.bilibili.com/opus/1129889308706078740", "PMO Lab God\'s Punishment 68 magnetic axis keyboard is on sale, Tata Power DP104 keyboard is on sale"]
+2025-11-01: ["https://www.bilibili.com/opus/1130259156963426340", "Daryou COOL98 light with mechanical keyboard is now on sale. Haven 65+ kit is available for sale today."]
