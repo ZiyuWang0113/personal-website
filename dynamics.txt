@@ -287,3 +287,4 @@
 2025-10-30: ["https://www.bilibili.com/opus/1129520053215035416", "VGN V87V2|NDNH Inkstoneless ND104 is now on sale|PSC2.S1&S2 kit|VGN Dragonfly King is on sale"]
 2025-10-31: ["https://www.bilibili.com/opus/1129889308706078740", "PMO Lab God\'s Punishment 68 magnetic axis keyboard is on sale, Tata Power DP104 keyboard is on sale"]
 2025-11-01: ["https://www.bilibili.com/opus/1130259156963426340", "Daryou COOL98 light with mechanical keyboard is now on sale. Haven 65+ kit is available for sale today."]
+2025-11-02: ["https://www.bilibili.com/opus/1130632217819611142", "Haven 65+ kit is in stock tonight and Hare works Two40 kit will be on tour soon"]
