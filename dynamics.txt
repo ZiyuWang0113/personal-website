@@ -289,3 +289,4 @@
 2025-11-01: ["https://www.bilibili.com/opus/1130259156963426340", "Daryou COOL98 light with mechanical keyboard is now on sale. Haven 65+ kit is available for sale today."]
 2025-11-02: ["https://www.bilibili.com/opus/1130632217819611142", "Haven 65+ kit is in stock tonight and Hare works Two40 kit will be on tour soon"]
 2025-11-03: ["https://www.bilibili.com/opus/1131000244933230631", "ATK RS6 Air magnetic keyboard is on sale today. American Lion TITAN68 Turbo magnetic keyboard is on sale today."]
+2025-11-07: ["https://www.bilibili.com/opus/1132490237828661333", "ROG Dual Night Demons are on sale CHERRY Cherry’s new flagship PIXIU99 wireless mechanical keyboard is on sale"]
