@@ -290,3 +290,4 @@
 2025-11-02: ["https://www.bilibili.com/opus/1130632217819611142", "Haven 65+ kit is in stock tonight and Hare works Two40 kit will be on tour soon"]
 2025-11-03: ["https://www.bilibili.com/opus/1131000244933230631", "ATK RS6 Air magnetic keyboard is on sale today. American Lion TITAN68 Turbo magnetic keyboard is on sale today."]
 2025-11-07: ["https://www.bilibili.com/opus/1132490237828661333", "ROG Dual Night Demons are on sale CHERRY Cherry’s new flagship PIXIU99 wireless mechanical keyboard is on sale"]
+2025-11-08: ["https://www.bilibili.com/opus/1132852836151853057", "LEOBOG A80RT magnetic axis keyboard goes on sale today, Focus Lab Ctrl100 electric footrest keyboard is set for sale"]
