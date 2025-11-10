@@ -292,3 +292,4 @@
 2025-11-07: ["https://www.bilibili.com/opus/1132490237828661333", "ROG Dual Night Demons are on sale CHERRY Cherry’s new flagship PIXIU99 wireless mechanical keyboard is on sale"]
 2025-11-08: ["https://www.bilibili.com/opus/1132852836151853057", "LEOBOG A80RT magnetic axis keyboard goes on sale today, Focus Lab Ctrl100 electric footrest keyboard is set for sale"]
 2025-11-09: ["https://www.bilibili.com/opus/1133229719562485785", "Tata Power DP104 mechanical keyboard will be restocked tonight, and Colorful Xingchi 87 magnetic axis keyboard will be on the shelves."]
+2025-11-10: ["https://www.bilibili.com/opus/1133603411753697312", "Vika MAX102 restocks, Maicong A5 V3/Raiber VT0Air lightweight wireless mouse now on sale"]
