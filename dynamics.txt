@@ -295,3 +295,4 @@
 2025-11-10: ["https://www.bilibili.com/opus/1133603411753697312", "Vika MAX102 restocks, Maicong A5 V3/Raiber VT0Air lightweight wireless mouse now on sale"]
 2025-11-11: ["https://www.bilibili.com/opus/1133966559862063124", "PMO Lab P75 wireless mechanical keyboard starting at 99 yuan is on sale, and Wolf Spider King68 inductive axis keyboard is on sale"]
 2025-11-13: ["https://www.bilibili.com/opus/1134713398787833864", "Neson’s new NoryTek 70 kit officially announced Logitech G PRO X new color Cyan released overseas"]
+2025-11-14: ["https://www.bilibili.com/opus/1135087576354390038", "Black Canyon\'s new E99 mechanical keyboard is on the shelves, and the new color scheme of the Wolf Spider F87Prov2 mechanical keyboard is on sale"]
