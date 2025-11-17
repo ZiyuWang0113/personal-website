@@ -298,3 +298,4 @@
 2025-11-14: ["https://www.bilibili.com/opus/1135087576354390038", "Black Canyon\'s new E99 mechanical keyboard is on the shelves, and the new color scheme of the Wolf Spider F87Prov2 mechanical keyboard is on sale"]
 2025-11-15: ["https://www.bilibili.com/opus/1135453872675880976", "FOCUS LABCtrl100 mechanical keyboard goes on sale today Mikovei Mass80 kit is set for sale"]
 2025-11-16: ["https://www.bilibili.com/opus/1135821397308735495", "TTC Officially Announces New Structure Flagship Magnetic Switch XVX Launches New Original Highly Forged Carbon Pattern Keycaps"]
+2025-11-17: ["https://www.bilibili.com/opus/1136200101721538581", "Forerunner X98 Dual 8K Triple Mode Mechanical Keyboard is on sale, Kaihua’s new product, the Spirit Snake Mechanical Switch, is on sale"]
