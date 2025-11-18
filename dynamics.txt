@@ -299,3 +299,4 @@
 2025-11-15: ["https://www.bilibili.com/opus/1135453872675880976", "FOCUS LABCtrl100 mechanical keyboard goes on sale today Mikovei Mass80 kit is set for sale"]
 2025-11-16: ["https://www.bilibili.com/opus/1135821397308735495", "TTC Officially Announces New Structure Flagship Magnetic Switch XVX Launches New Original Highly Forged Carbon Pattern Keycaps"]
 2025-11-17: ["https://www.bilibili.com/opus/1136200101721538581", "Forerunner X98 Dual 8K Triple Mode Mechanical Keyboard is on sale, Kaihua’s new product, the Spirit Snake Mechanical Switch, is on sale"]
+2025-11-18: ["https://www.bilibili.com/opus/1136572780340314137", "WJBY Lab 277 shaft | NDIY Freya silent magnetic shaft | Xida Bear shaft various shafts on sale"]
