@@ -300,3 +300,4 @@
 2025-11-16: ["https://www.bilibili.com/opus/1135821397308735495", "TTC Officially Announces New Structure Flagship Magnetic Switch XVX Launches New Original Highly Forged Carbon Pattern Keycaps"]
 2025-11-17: ["https://www.bilibili.com/opus/1136200101721538581", "Forerunner X98 Dual 8K Triple Mode Mechanical Keyboard is on sale, Kaihua’s new product, the Spirit Snake Mechanical Switch, is on sale"]
 2025-11-18: ["https://www.bilibili.com/opus/1136572780340314137", "WJBY Lab 277 shaft | NDIY Freya silent magnetic shaft | Xida Bear shaft various shafts on sale"]
+2025-11-20: ["https://www.bilibili.com/opus/1137308052978925590", "NesonNoryTek70 kit launched MZ peripheral Y3x axis official announcement Black Canyon MX68 magnetic axis keyboard on sale"]
