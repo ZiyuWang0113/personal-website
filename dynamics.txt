@@ -304,3 +304,4 @@
 2025-11-21: ["https://www.bilibili.com/opus/1137669654892773395", "Deadline Studio NewRetro#66v3 pre-sale group ZFX2025 Shanghai offline exhibition will start tomorrow"]
 2025-11-22: ["https://www.bilibili.com/opus/1138039266896511048", "Rena Lab Jade Switch is on sale Titan Kingdom TITAN68V2 magnetic switch keyboard is on sale ZF Exhibition News"]
 2025-11-23: ["https://www.bilibili.com/opus/1138415510299344900", "Zuoce Studio Marshmallow R2 axis for sale MelGeek announces new Horus wireless mouse"]
+2025-11-24: ["https://www.bilibili.com/opus/1138795571955367940", "SU LAB Apero axis/Lulu axis dual axis group launch LK NOVAMINI three-mode small kit will be on sale soon"]
