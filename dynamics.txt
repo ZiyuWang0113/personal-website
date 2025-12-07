@@ -310,3 +310,4 @@
 2025-11-29: ["https://www.bilibili.com/opus/None", "EPOMAKER launches full-size QK108 three-mode mechanical keyboard and Amilo wireless pedal keyboard starts pre-sale"]
 2025-11-30: ["https://www.bilibili.com/opus/None", "Kaihua Raptor Series Purple Kite Silent Low Switches are on sale. Shanhai lacquer mother-of-pearl ceramic keycaps will be on sale soon."]
 2025-12-01: ["https://www.bilibili.com/opus/None", "Vika NUT65CU brass-bottomed aluminum alloy kit is on sale, Jiadalong & Shancheng FORT75 magnetic axis keyboard is fixed"]
+2025-12-06: ["https://www.bilibili.com/opus/None", "The chief player returns!New Product NEO108 Wireless Three-Mode Keyboard Officially Announced Black Cat Studio Black Cat Axis Group Launch"]
