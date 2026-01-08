@@ -318,3 +318,4 @@
 2025-12-29: ["https://www.bilibili.com/opus/None", "Vika\'s lucky65v3 mechanical keyboard is now on sale, Jiadalong gt60ultra magnetic axis PCB set is on sale"]
 2026-01-03: ["https://www.bilibili.com/opus/None", "Singmeng ZERO series keyboards are about to be launched, Fanta Lab Croissant 65 kit is available for purchase today"]
 2026-01-04: ["https://www.bilibili.com/opus/None", "Tune Lab Bella split ergonomic keyboard kit launched, Content’s new product Lightning Switch V2 is on sale"]
+2026-01-07: ["https://www.bilibili.com/opus/None", "Maicon K99 V3 mechanical keyboard goes on sale, ROG CES official announces Magic ACE75HE magnetic axis keyboard"]
