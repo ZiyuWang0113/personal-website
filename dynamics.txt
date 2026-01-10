@@ -320,3 +320,4 @@
 2026-01-04: ["https://www.bilibili.com/opus/None", "Tune Lab Bella split ergonomic keyboard kit launched, Content’s new product Lightning Switch V2 is on sale"]
 2026-01-07: ["https://www.bilibili.com/opus/None", "Maicon K99 V3 mechanical keyboard goes on sale, ROG CES official announces Magic ACE75HE magnetic axis keyboard"]
 2026-01-08: ["https://www.bilibili.com/opus/None", "RK K99 Star Blade mechanical keyboard with large light box is on sale today, Sebas CN Panda Kit is now available for purchase"]
+2026-01-09: ["https://www.bilibili.com/opus/None", "Huannuo Wuyue Tan axis/Yulin silent axis two new axis bodies are on the shelves MelGeek Horus mouse is on sale"]
