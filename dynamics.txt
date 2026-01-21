@@ -324,3 +324,4 @@
 2026-01-13: ["https://www.bilibili.com/opus/None", "Razer & EVA 2 co-branded peripherals are now on sale, TTC Ice and Fire Wheel Encoder/Qinglong Micro Motion is on sale"]
 2026-01-18: ["https://www.bilibili.com/opus/None", "Matrix Lab 10th Anniversary Carnival TKL Kit Officially Announced MZ Peripheral Y3x Axis Replenishment"]
 2026-01-19: ["https://www.bilibili.com/opus/None", "VGN Dragonfly 3 medium-sized large-hand wireless mouse TTC Red Flame Pink Switch is on sale AKKO Year of the Snake limited keyboard is on sale"]
+2026-01-20: ["https://www.bilibili.com/opus/None", "VGN Neon 68 super competition version magnetic axis keyboard is on sale KairosLab TUTU split keyboard preview group is launched"]
