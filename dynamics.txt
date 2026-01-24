@@ -327,3 +327,4 @@
 2026-01-20: ["https://www.bilibili.com/opus/None", "VGN Neon 68 super competition version magnetic axis keyboard is on sale KairosLab TUTU split keyboard preview group is launched"]
 2026-01-21: ["https://www.bilibili.com/opus/None", "ATK RS7 Air magnetic axis keyboard goes on sale Wanxing Studio Wanxing 98 kit group purchase starts"]
 2026-01-22: ["https://www.bilibili.com/opus/None", "Matrix Lab 10th Anniversary Kit is about to be launched, Rapoo 54h20 VT3sMAX Master Edition Mouse"]
+2026-01-23: ["https://www.bilibili.com/opus/None", "Starting from 199 yuan!Xinmeng ZERO68 forged carbon wind magnetic axis keyboard goes on sale JTK launches FC transparent limited edition keycaps"]
