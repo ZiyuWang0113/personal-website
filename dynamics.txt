@@ -330,3 +330,4 @@
 2026-01-23: ["https://www.bilibili.com/opus/None", "Starting from 199 yuan!Xinmeng ZERO68 forged carbon wind magnetic axis keyboard goes on sale JTK launches FC transparent limited edition keycaps"]
 2026-01-24: ["https://www.bilibili.com/opus/None", "Hahu Peripheral Split Silver Axis is now on sale, and more details of Xinmeng ZERO 1 mouse are announced, starting from 39 yuan!"]
 2026-01-26: ["https://www.bilibili.com/opus/None", "Mint peripherals starting at 49.9 yuan, 137-key folding keycaps CHERRY releases Pokémon co-branded keyboard"]
+2026-01-27: ["https://www.bilibili.com/opus/None", "SKN Qinglong Carbon 2U0 mechanical keyboard is on sale, HP GT75 knob mechanical keyboard is on sale"]
