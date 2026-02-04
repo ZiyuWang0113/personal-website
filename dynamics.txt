@@ -332,3 +332,4 @@
 2026-01-26: ["https://www.bilibili.com/opus/None", "Mint peripherals starting at 49.9 yuan, 137-key folding keycaps CHERRY releases Pokémon co-branded keyboard"]
 2026-01-27: ["https://www.bilibili.com/opus/None", "SKN Qinglong Carbon 2U0 mechanical keyboard is on sale, HP GT75 knob mechanical keyboard is on sale"]
 2026-02-02: ["https://www.bilibili.com/opus/None", "Goss 3101TPRO mechanical keyboard is now available for pre-sale, SKN Qinglong 4.0 Ultra mechanical keyboard is now available in new colors"]
+2026-02-03: ["https://www.bilibili.com/opus/None", "Cherry MX8.2PROHybrid version of the keyboard has been finalized and Smurve80 curved surface kit is on sale"]
