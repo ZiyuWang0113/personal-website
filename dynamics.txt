@@ -339,3 +339,4 @@
 2026-02-11: ["https://www.bilibili.com/opus/None", "KEYVERSE Domeless ST63 Magnetic Axis Keyboard PMO Lab Aurora 80 Jueying Year of the Horse Special Edition is on sale"]
 2026-02-12: ["https://www.bilibili.com/opus/None", "ZT small red dot sofle split aluminum alloy keyboard, Razer aluminum alloy version of Soul Hunter SE news exposed"]
 2026-02-23: ["https://www.bilibili.com/opus/None", "Vika Nut series new product 108 full-size keyboard appearance and layout announced, Chacha Technology GH60 electrostatic capacitor PCB launched"]
+2026-02-24: ["https://www.bilibili.com/opus/None", "Eazsoostudio ESU63 magnetic keyboard is on sale today, Wuqiong ST63 magnetic keyboard is in stock"]
