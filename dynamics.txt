@@ -342,3 +342,4 @@
 2026-02-24: ["https://www.bilibili.com/opus/None", "Eazsoostudio ESU63 magnetic keyboard is on sale today, Wuqiong ST63 magnetic keyboard is in stock"]
 2026-02-27: ["https://www.bilibili.com/opus/None", "Infic K87Pro mechanical keyboard goes on sale, Rapoo VT3s Air MAX lightweight mouse is on sale"]
 2026-03-14: ["https://www.bilibili.com/opus/None", "ATK RS6+ aluminum alloy magnetic axis keyboard is on the shelves, and Dalyou Ultra75 magnetic axis keyboard will start limited customization"]
+2026-03-16: ["https://www.bilibili.com/opus/None", "SP STAR MM108 large-size retro mechanical keyboard is on sale, Maicon Ace 68V2 magnetic axis keyboard is new"]
