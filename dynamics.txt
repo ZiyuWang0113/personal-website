@@ -345,3 +345,4 @@
 2026-03-16: ["https://www.bilibili.com/opus/None", "SP STAR MM108 large-size retro mechanical keyboard is on sale, Maicon Ace 68V2 magnetic axis keyboard is new"]
 2026-03-19: ["https://www.bilibili.com/opus/None", "FEKER C75 preview group is about to open, 80retros 1990s crimson pink keycaps are on sale"]
 2026-03-20: ["https://www.bilibili.com/opus/None", "Wolf Spider AG75 aluminum alloy magnetic axis keyboard goes on sale today RAPOO U2-like VT6 series mouse official announcement"]
+2026-03-21: ["https://www.bilibili.com/opus/None", "MZ peripherals Y3x axis replenishment NuPhy officially announced Field75HE V2 magnetic axis keyboard"]
