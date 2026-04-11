@@ -351,3 +351,4 @@
 2026-04-01: ["https://www.bilibili.com/opus/None", "Razer releases ergonomic keyboard PRO TYPE ERGO, RK R87ProV2 keyboard will be released soon"]
 2026-04-05: ["https://www.bilibili.com/opus/None", "N card style!Jilu NV60 aluminum alloy magnetic axis keyboard will be on sale soon Moyustudio new store event will start again"]
 2026-04-06: ["https://www.bilibili.com/opus/None", "Xinmeng ZERO68 Magic Purple Color Magnetic Switch Keyboard is scheduled to be released. SULAB Pu\'er Tea Silent Switch is on sale."]
+2026-04-10: ["https://www.bilibili.com/opus/None", "Vika EG75 keyboard goes on sale MelGeek officially announces MADE68 ULTRA V2 magnetic axis keyboard"]
