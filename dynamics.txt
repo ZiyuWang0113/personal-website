@@ -353,3 +353,4 @@
 2026-04-06: ["https://www.bilibili.com/opus/None", "Xinmeng ZERO68 Magic Purple Color Magnetic Switch Keyboard is scheduled to be released. SULAB Pu\'er Tea Silent Switch is on sale."]
 2026-04-10: ["https://www.bilibili.com/opus/None", "Vika EG75 keyboard goes on sale MelGeek officially announces MADE68 ULTRA V2 magnetic axis keyboard"]
 2026-04-11: ["https://www.bilibili.com/opus/None", "Take a sneak peek!WOB 100-key large arrangement keyboard appearance picture GKS LAB TECH80 group friends first group launch"]
+2026-04-12: ["https://www.bilibili.com/opus/None", "Keyboard with \"tail wing\" 80Retros Kansei 1988 kit official announcement"]
