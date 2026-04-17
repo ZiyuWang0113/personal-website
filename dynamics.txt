@@ -356,3 +356,4 @@
 2026-04-12: ["https://www.bilibili.com/opus/None", "Keyboard with \"tail wing\" 80Retros Kansei 1988 kit official announcement"]
 2026-04-14: ["https://www.bilibili.com/opus/None", "99 yuan!SKN Suzaku Carbon Wireless Mouse is now on sale, and pre-sale for GK104PRO version 4.0 is now open"]
 2026-04-16: ["https://www.bilibili.com/opus/None", "Razer Soul Hunting Light Spider Signature Edition is about to return, MZ peripheral T2 axis official announcement trailer"]
+2026-04-17: ["https://www.bilibili.com/opus/None", "Nyawice kit starts pre-sale MxrsKey customized Story80v2 kit official announcement"]
