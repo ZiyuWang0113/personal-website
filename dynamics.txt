@@ -359,3 +359,4 @@
 2026-04-17: ["https://www.bilibili.com/opus/None", "Nyawice kit starts pre-sale MxrsKey customized Story80v2 kit official announcement"]
 2026-04-18: ["https://www.bilibili.com/opus/None", "Gravity Planet UFO Peach Magnetic Axis is on sale, Razer & Mingchao officially announced that the linked peripherals will be launched soon"]
 2026-04-20: ["https://www.bilibili.com/opus/None", "VGN Lightning 68/Inkstoneless Quadrant SF60/Maicong Ace 68Air2 magnetic keyboard is on sale"]
+2026-04-21: ["https://www.bilibili.com/opus/None", "MelGeek MADE68ULTRA V2 TTCPro/Lite Edition Magneto Axis"]
