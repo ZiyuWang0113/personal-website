@@ -360,3 +360,4 @@
 2026-04-18: ["https://www.bilibili.com/opus/None", "Gravity Planet UFO Peach Magnetic Axis is on sale, Razer & Mingchao officially announced that the linked peripherals will be launched soon"]
 2026-04-20: ["https://www.bilibili.com/opus/None", "VGN Lightning 68/Inkstoneless Quadrant SF60/Maicong Ace 68Air2 magnetic keyboard is on sale"]
 2026-04-21: ["https://www.bilibili.com/opus/None", "MelGeek MADE68ULTRA V2 TTCPro/Lite Edition Magneto Axis"]
+2026-04-25: ["https://www.bilibili.com/opus/None", "shock!Philco officially announced that it will cease operations!MatrixLab displays new product MY2K and split keyboard offline"]
