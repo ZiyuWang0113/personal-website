@@ -361,3 +361,4 @@
 2026-04-20: ["https://www.bilibili.com/opus/None", "VGN Lightning 68/Inkstoneless Quadrant SF60/Maicong Ace 68Air2 magnetic keyboard is on sale"]
 2026-04-21: ["https://www.bilibili.com/opus/None", "MelGeek MADE68ULTRA V2 TTCPro/Lite Edition Magneto Axis"]
 2026-04-25: ["https://www.bilibili.com/opus/None", "shock!Philco officially announced that it will cease operations!MatrixLab displays new product MY2K and split keyboard offline"]
+2026-04-26: ["https://www.bilibili.com/opus/None", "Keycap factory Gaoxinda makes the shaft!Carbon fiber appearance shaft exposed, Wolf Spider F99MAX screen display mechanical keyboard official announcement"]
