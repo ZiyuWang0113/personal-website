@@ -364,3 +364,4 @@
 2026-04-26: ["https://www.bilibili.com/opus/None", "Keycap factory Gaoxinda makes the shaft!Carbon fiber appearance shaft exposed, Wolf Spider F99MAX screen display mechanical keyboard official announcement"]
 2026-04-27: ["https://www.bilibili.com/opus/None", "Instant discount of 500 yuan!FiiO KB3 DSD decoding HiFi music mechanical keyboard starting from 399 yuan"]
 2026-04-29: ["https://www.bilibili.com/opus/None", "Gravity Planet launches XAir wireless three-mode mouse, Razer & BLACKPINK joint external configuration file"]
+2026-05-02: ["https://www.bilibili.com/opus/None", "MZ Peripheral T2 Axis Group Purchase Opens IQUNIX Ghost in the Shell Joint EV63 Magnetic Axis Keyboard Real Shot Revealed"]
