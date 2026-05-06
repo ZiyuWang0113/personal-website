@@ -367,3 +367,4 @@
 2026-05-02: ["https://www.bilibili.com/opus/None", "MZ Peripheral T2 Axis Group Purchase Opens IQUNIX Ghost in the Shell Joint EV63 Magnetic Axis Keyboard Real Shot Revealed"]
 2026-05-04: ["https://www.bilibili.com/opus/None", "TES Xinfuyou develops resistor slide-type shaft, new retro color scheme on Hahu Peripheral Vero75 low-shaft mechanical keyboard"]
 2026-05-05: ["https://www.bilibili.com/opus/None", "TRY Studio Venus 40 small keyboard launches AbleStud Yu-Gi-Oh magnetic axis on the shelves"]
+2026-05-06: ["https://www.bilibili.com/opus/None", "HC Studio Nana axis, HELIX LAB Elysium R1 kit now on sale"]
