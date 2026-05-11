@@ -369,3 +369,4 @@
 2026-05-05: ["https://www.bilibili.com/opus/None", "TRY Studio Venus 40 small keyboard launches AbleStud Yu-Gi-Oh magnetic axis on the shelves"]
 2026-05-06: ["https://www.bilibili.com/opus/None", "HC Studio Nana axis, HELIX LAB Elysium R1 kit now on sale"]
 2026-05-10: ["https://www.bilibili.com/opus/None", "Matrix Lab MY-2K 1999 kit lottery group ATK/WOB multiple new product appearances exposed"]
+2026-05-11: ["https://www.bilibili.com/opus/None", "3955 sensor!Xiaomi Gaming Mouse 2 crowdfunding starts, Aston Z68T carbon magnetic keyboard goes on sale"]
