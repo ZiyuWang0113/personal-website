@@ -371,3 +371,4 @@
 2026-05-10: ["https://www.bilibili.com/opus/None", "Matrix Lab MY-2K 1999 kit lottery group ATK/WOB multiple new product appearances exposed"]
 2026-05-11: ["https://www.bilibili.com/opus/None", "3955 sensor!Xiaomi Gaming Mouse 2 crowdfunding starts, Aston Z68T carbon magnetic keyboard goes on sale"]
 2026-05-13: ["https://www.bilibili.com/opus/None", "Leather + aluminum alloy!Forerunner MUSE M80 goes on sale, Maicong K7 V2 mouse will be equipped with 3955TI"]
+2026-05-14: ["https://www.bilibili.com/opus/None", "Damosha\'s new product SK88 wireless three-mode mechanical keyboard goes on sale MMD will launch Matt65 split mechanical keyboard"]
