@@ -372,3 +372,4 @@
 2026-05-11: ["https://www.bilibili.com/opus/None", "3955 sensor!Xiaomi Gaming Mouse 2 crowdfunding starts, Aston Z68T carbon magnetic keyboard goes on sale"]
 2026-05-13: ["https://www.bilibili.com/opus/None", "Leather + aluminum alloy!Forerunner MUSE M80 goes on sale, Maicong K7 V2 mouse will be equipped with 3955TI"]
 2026-05-14: ["https://www.bilibili.com/opus/None", "Damosha\'s new product SK88 wireless three-mode mechanical keyboard goes on sale MMD will launch Matt65 split mechanical keyboard"]
+2026-05-15: ["https://www.bilibili.com/opus/None", "ROG Wizard ACE 75HE is on sale in a new color, Lava Red, and Aston G06 series 3955 mouse is on sale"]
