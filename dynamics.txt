@@ -374,3 +374,4 @@
 2026-05-14: ["https://www.bilibili.com/opus/None", "Damosha\'s new product SK88 wireless three-mode mechanical keyboard goes on sale MMD will launch Matt65 split mechanical keyboard"]
 2026-05-15: ["https://www.bilibili.com/opus/None", "ROG Wizard ACE 75HE is on sale in a new color, Lava Red, and Aston G06 series 3955 mouse is on sale"]
 2026-05-18: ["https://www.bilibili.com/opus/None", "Double core hydraulic rod quick release structure!Forerunner ES87 magnetic axis keyboard exposed, Red Magic carbon fiber + aluminum alloy mouse officially announced"]
+2026-05-19: ["https://www.bilibili.com/opus/None", "KeZhi releases new mechanical keyboard Z87 Jinshu 87 Xiaoshun FLOW2 Mac version is on sale in more colors"]
