@@ -375,3 +375,4 @@
 2026-05-15: ["https://www.bilibili.com/opus/None", "ROG Wizard ACE 75HE is on sale in a new color, Lava Red, and Aston G06 series 3955 mouse is on sale"]
 2026-05-18: ["https://www.bilibili.com/opus/None", "Double core hydraulic rod quick release structure!Forerunner ES87 magnetic axis keyboard exposed, Red Magic carbon fiber + aluminum alloy mouse officially announced"]
 2026-05-19: ["https://www.bilibili.com/opus/None", "KeZhi releases new mechanical keyboard Z87 Jinshu 87 Xiaoshun FLOW2 Mac version is on sale in more colors"]
+2026-05-20: ["https://www.bilibili.com/opus/None", "VGN Officially Announces V98Pro V4 Mechanical Keyboard Womier&Oxide Co-branded Quantum Honeycomb Keycaps Are On Sale"]
