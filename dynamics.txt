@@ -380,3 +380,4 @@
 2026-05-24: ["https://www.bilibili.com/opus/None", "1.3 yuan!Yurui Magnetic Switch is on sale ATK X1air Master Edition + Mouse is coming soon"]
 2026-05-25: ["https://www.bilibili.com/opus/None", "Belling FL·CMMK S1 switches are on sale today Jr.Mars salmon keycaps are back on sale"]
 2026-05-28: ["https://www.bilibili.com/opus/None", "KeZhi\'s new product Z87 Jinshu wireless three-mode mechanical keyboard is on sale. Maicong A7V3 3955 wireless mouse will be on sale soon."]
+2026-05-30: ["https://www.bilibili.com/opus/None", "VGN V98Pro V4 mechanical keyboard goes on sale today, Amilo VA100 multiple new themes are on sale"]
