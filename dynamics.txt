@@ -382,3 +382,4 @@
 2026-05-28: ["https://www.bilibili.com/opus/None", "KeZhi\'s new product Z87 Jinshu wireless three-mode mechanical keyboard is on sale. Maicong A7V3 3955 wireless mouse will be on sale soon."]
 2026-05-30: ["https://www.bilibili.com/opus/None", "VGN V98Pro V4 mechanical keyboard goes on sale today, Amilo VA100 multiple new themes are on sale"]
 2026-05-31: ["https://www.bilibili.com/opus/None", "Gravity Planet’s new product K98PRO three-mode mechanical keyboard is on sale. Meow Buer Studio’s Buster split keyboard group purchase is now open."]
+2026-06-01: ["https://www.bilibili.com/opus/None", "Vika officially announced the new NUT75 mechanical keyboard, and Focus Lab officially announced the second electric lift kit CTRL87"]
