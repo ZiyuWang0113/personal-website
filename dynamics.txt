@@ -387,3 +387,4 @@
 2026-06-05: ["https://www.bilibili.com/opus/None", "Tarantula 63/68 dual-magnetic axis keyboard is now on sale, Rapoo VT7/ VT7s MAX Master Edition is now on sale"]
 2026-06-06: ["https://www.bilibili.com/opus/None", "Wanxing’s customized MG-75% kit is about to be launched. Vika’s NUT75 wireless three-mode mechanical keyboard is scheduled to be released"]
 2026-06-09: ["https://www.bilibili.com/opus/None", "Curved shell + built-in solenoid valve!Smurve80 first white limited edition see-through kit, Forerunner A6 wireless mouse now on sale"]
+2026-06-11: ["https://www.bilibili.com/opus/None", "VGN Neon 75Air magnetic axis keyboard new product is on sale Maicon K7V2 3955TI sensor mouse"]
