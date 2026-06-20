@@ -390,3 +390,4 @@
 2026-06-11: ["https://www.bilibili.com/opus/None", "VGN Neon 75Air magnetic axis keyboard new product is on sale Maicon K7V2 3955TI sensor mouse"]
 2026-06-12: ["https://www.bilibili.com/opus/None", "Vika’s new product NUT75 wireless three-mode mechanical keyboard is on the shelves, and QK100Mk2 wireless three-mode mechanical keyboard is on sale"]
 2026-06-17: ["https://www.bilibili.com/opus/None", "ROG 20th Anniversary Peripherals Officially Announced Valkyrie VK87 MAX V2 Mechanical Keyboard Will Go On Sale Today"]
+2026-06-20: ["https://www.bilibili.com/opus/None", "ZFX-Meetup Guangzhou Special Exhibition Preview Yunduo Studio Yunduo 65 Suite Opened"]
