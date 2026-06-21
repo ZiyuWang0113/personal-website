@@ -391,3 +391,4 @@
 2026-06-12: ["https://www.bilibili.com/opus/None", "Vika’s new product NUT75 wireless three-mode mechanical keyboard is on the shelves, and QK100Mk2 wireless three-mode mechanical keyboard is on sale"]
 2026-06-17: ["https://www.bilibili.com/opus/None", "ROG 20th Anniversary Peripherals Officially Announced Valkyrie VK87 MAX V2 Mechanical Keyboard Will Go On Sale Today"]
 2026-06-20: ["https://www.bilibili.com/opus/None", "ZFX-Meetup Guangzhou Special Exhibition Preview Yunduo Studio Yunduo 65 Suite Opened"]
+2026-06-21: ["https://www.bilibili.com/opus/None", "Gearpod Studio Crepe Axis is on the shelves, Zhuowei’s two gray special edition mice will be on sale soon"]
