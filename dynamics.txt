@@ -394,3 +394,4 @@
 2026-06-21: ["https://www.bilibili.com/opus/None", "Gearpod Studio Crepe Axis is on the shelves, Zhuowei’s two gray special edition mice will be on sale soon"]
 2026-06-24: ["https://www.bilibili.com/opus/None", "MxrsKey officially announces new product Mochi80 kit, Jinggg-X co-branded mouse now on sale"]
 2026-06-28: ["https://www.bilibili.com/opus/None", "WhatEverStudio’s new PAPER 60e kit is exposed, Hazelnut Axis V2 is on sale"]
+2026-06-29: ["https://www.bilibili.com/opus/None", "The Key to Mars Mochi80 kit is now available for purchase, and the split modular keyboard BladeSage Q5 is exposed!"]
