@@ -398,3 +398,4 @@
 2026-06-30: ["https://www.bilibili.com/opus/None", "Classic large configuration mold! SKN Qinglong 4.0 TMR wireless magnetic axis keyboard is on sale. Ringno carbon pattern appearance axis-carbon shadow axis"]
 2026-07-04: ["https://www.bilibili.com/opus/None", "Forerunner EXX Alpha 87 Hydraulic Rod Magnetic Shaft Mechanical Shaft Key Reservation Opening Wuhai Golden Shaft Group Opening"]
 2026-07-05: ["https://www.bilibili.com/opus/None", "ROG desktop speaker peripherals announced, Fingertip Creative Ghost in the Shell 2501 keycaps finalized"]
+2026-07-06: ["https://www.bilibili.com/opus/None", "Modular keyboard!Do you prefer controller + keyboard or 75 split F area + main key area?JKDK flower axis is on sale"]
