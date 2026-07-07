@@ -399,3 +399,4 @@
 2026-07-04: ["https://www.bilibili.com/opus/None", "Forerunner EXX Alpha 87 Hydraulic Rod Magnetic Shaft Mechanical Shaft Key Reservation Opening Wuhai Golden Shaft Group Opening"]
 2026-07-05: ["https://www.bilibili.com/opus/None", "ROG desktop speaker peripherals announced, Fingertip Creative Ghost in the Shell 2501 keycaps finalized"]
 2026-07-06: ["https://www.bilibili.com/opus/None", "Modular keyboard!Do you prefer controller + keyboard or 75 split F area + main key area?JKDK flower axis is on sale"]
+2026-07-07: ["https://www.bilibili.com/opus/None", "Razer & Pokémon Eevee co-branded peripherals revealed, LUMINKEY80 MK II kit finalized"]
