@@ -401,3 +401,4 @@
 2026-07-06: ["https://www.bilibili.com/opus/None", "Modular keyboard!Do you prefer controller + keyboard or 75 split F area + main key area?JKDK flower axis is on sale"]
 2026-07-07: ["https://www.bilibili.com/opus/None", "Razer & Pokémon Eevee co-branded peripherals revealed, LUMINKEY80 MK II kit finalized"]
 2026-07-09: ["https://www.bilibili.com/opus/None", "Minority & Akko co-branded keyboard Linx68 pre-sale starts, kbd Athena 75 keyboard will be on sale soon"]
+2026-07-10: ["https://www.bilibili.com/opus/None", "ROG Gallar Desktop Speaker Officially Announces PERMECH Origami 100 Kit Futures Group Opens"]
