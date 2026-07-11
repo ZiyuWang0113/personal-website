@@ -402,3 +402,4 @@
 2026-07-07: ["https://www.bilibili.com/opus/None", "Razer & Pokémon Eevee co-branded peripherals revealed, LUMINKEY80 MK II kit finalized"]
 2026-07-09: ["https://www.bilibili.com/opus/None", "Minority & Akko co-branded keyboard Linx68 pre-sale starts, kbd Athena 75 keyboard will be on sale soon"]
 2026-07-10: ["https://www.bilibili.com/opus/None", "ROG Gallar Desktop Speaker Officially Announces PERMECH Origami 100 Kit Futures Group Opens"]
+2026-07-11: ["https://www.bilibili.com/opus/None", "0.98 yuan!zuoce peripherals Marshmallow R1x switch on sale ATK new RS63 Air magnetic switch keyboard"]
