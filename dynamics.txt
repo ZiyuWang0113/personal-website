@@ -403,3 +403,4 @@
 2026-07-09: ["https://www.bilibili.com/opus/None", "Minority & Akko co-branded keyboard Linx68 pre-sale starts, kbd Athena 75 keyboard will be on sale soon"]
 2026-07-10: ["https://www.bilibili.com/opus/None", "ROG Gallar Desktop Speaker Officially Announces PERMECH Origami 100 Kit Futures Group Opens"]
 2026-07-11: ["https://www.bilibili.com/opus/None", "0.98 yuan!zuoce peripherals Marshmallow R1x switch on sale ATK new RS63 Air magnetic switch keyboard"]
+2026-07-13: ["https://www.bilibili.com/opus/None", "AtelierHaven Officially Announces DECON80 Kit XTRFY K5V2 Keyboard Upgrade Now on Sale"]
