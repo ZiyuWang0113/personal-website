@@ -405,3 +405,4 @@
 2026-07-11: ["https://www.bilibili.com/opus/None", "0.98 yuan!zuoce peripherals Marshmallow R1x switch on sale ATK new RS63 Air magnetic switch keyboard"]
 2026-07-13: ["https://www.bilibili.com/opus/None", "AtelierHaven Officially Announces DECON80 Kit XTRFY K5V2 Keyboard Upgrade Now on Sale"]
 2026-07-15: ["https://www.bilibili.com/opus/None", "Mi Xingren & Bladesage jointly launch the early bird group for Q5 modular partitioned mechanical keyboard"]
+2026-07-17: ["https://www.bilibili.com/opus/None", "ATK Rayqua Z1V2 Master Edition + Mouse now on sale EXX Gamma75 Black Feather Color Magnetic Axis Keyboard is now available"]
