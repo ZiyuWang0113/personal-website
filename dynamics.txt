@@ -406,3 +406,4 @@
 2026-07-13: ["https://www.bilibili.com/opus/None", "AtelierHaven Officially Announces DECON80 Kit XTRFY K5V2 Keyboard Upgrade Now on Sale"]
 2026-07-15: ["https://www.bilibili.com/opus/None", "Mi Xingren & Bladesage jointly launch the early bird group for Q5 modular partitioned mechanical keyboard"]
 2026-07-17: ["https://www.bilibili.com/opus/None", "ATK Rayqua Z1V2 Master Edition + Mouse now on sale EXX Gamma75 Black Feather Color Magnetic Axis Keyboard is now available"]
+2026-07-21: ["https://www.bilibili.com/opus/None", "The mouse has a built-in fan!Paisi F01 mouse is on sale, and Kechuang Z1 Max aluminum alloy mechanical keyboard is on sale"]
