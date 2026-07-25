@@ -408,3 +408,4 @@
 2026-07-17: ["https://www.bilibili.com/opus/None", "ATK Rayqua Z1V2 Master Edition + Mouse now on sale EXX Gamma75 Black Feather Color Magnetic Axis Keyboard is now available"]
 2026-07-21: ["https://www.bilibili.com/opus/None", "The mouse has a built-in fan!Paisi F01 mouse is on sale, and Kechuang Z1 Max aluminum alloy mechanical keyboard is on sale"]
 2026-07-24: ["https://www.bilibili.com/opus/None", "Suspected LEOBOG HI87?Appearance patent exposed!ATK will launch Pokémon co-branded series of peripherals"]
+2026-07-25: ["https://www.bilibili.com/opus/None", "Support detachable buttons!Ninix NX60OG magnetic axis PCB Zhuike Zero series V2 magnetic axis comprehensive upgrade"]
