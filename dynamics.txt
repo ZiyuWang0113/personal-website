@@ -409,3 +409,4 @@
 2026-07-21: ["https://www.bilibili.com/opus/None", "The mouse has a built-in fan!Paisi F01 mouse is on sale, and Kechuang Z1 Max aluminum alloy mechanical keyboard is on sale"]
 2026-07-24: ["https://www.bilibili.com/opus/None", "Suspected LEOBOG HI87?Appearance patent exposed!ATK will launch Pokémon co-branded series of peripherals"]
 2026-07-25: ["https://www.bilibili.com/opus/None", "Support detachable buttons!Ninix NX60OG magnetic axis PCB Zhuike Zero series V2 magnetic axis comprehensive upgrade"]
+2026-07-26: ["https://www.bilibili.com/opus/None", "Kaihua & Luofei once again jointly customize the shaft body Moaclab Nocturnal60 kit launch"]
