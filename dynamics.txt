@@ -412,3 +412,4 @@
 2026-07-26: ["https://www.bilibili.com/opus/None", "Kaihua & Luofei once again jointly customize the shaft body Moaclab Nocturnal60 kit launch"]
 2026-07-27: ["https://www.bilibili.com/opus/None", "ATK Rayqua GHOST+ series mice are about to go on sale, Black Canyon MK87 mechanical keyboard is on sale today"]
 2026-07-29: ["https://www.bilibili.com/opus/None", "The inkstone-less Quadrant SF60 diamond version magnetic axis keyboard is on sale, and Kezi’s new Z75 wireless three-mode mechanical keyboard is on sale."]
+2026-08-03: ["https://www.bilibili.com/opus/None", "Muse Lab DORO axis goes on sale Xi\'an Museum Four Seasons Co-branded Series!Wanling mouse exposed"]
