@@ -415,3 +415,4 @@
 2026-08-03: ["https://www.bilibili.com/opus/None", "Muse Lab DORO axis goes on sale Xi\'an Museum Four Seasons Co-branded Series!Wanling mouse exposed"]
 2026-08-08: ["https://www.bilibili.com/opus/None", "MelGeek officially announces new MIX LAB pioneer series product Keyset Universe AL98PRO mechanical keyboard on sale"]
 2026-08-09: ["https://www.bilibili.com/opus/None", "MZ peripherals officially announced that it will launch a more boring Y2x axis. LUMINKEY 80MK2 will be on sale soon."]
+2026-08-10: ["https://www.bilibili.com/opus/None", "Oboro Studio OBR60 kit group purchase starts, Wuhai customization, late mountain tea axis goes on sale today"]
