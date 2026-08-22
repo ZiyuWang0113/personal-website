@@ -417,3 +417,4 @@
 2026-08-09: ["https://www.bilibili.com/opus/None", "MZ peripherals officially announced that it will launch a more boring Y2x axis. LUMINKEY 80MK2 will be on sale soon."]
 2026-08-10: ["https://www.bilibili.com/opus/None", "Oboro Studio OBR60 kit group purchase starts, Wuhai customization, late mountain tea axis goes on sale today"]
 2026-08-17: ["https://www.bilibili.com/opus/None", "The old factory ikbc officially announced that the main lighting style 87 keyboard Haven DECON80 kit will be launched tonight"]
+2026-08-22: ["https://www.bilibili.com/opus/None", "Mage Studio Gift 100 Kit Group Purchase Starts Zuoce Studio Matcha Thick Breast Shaft on Sale"]
