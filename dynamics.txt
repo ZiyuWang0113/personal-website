@@ -421,3 +421,4 @@
 2026-08-23: ["https://www.bilibili.com/opus/None", "Youth Studio Yuluo Switch is on sale, Vanta’s new NOTHING68 magnetic switch keyboard is scheduled to be released"]
 2026-08-25: ["https://www.bilibili.com/opus/None", "Light and refreshing, large paragraphs in advance!LODK Studio Qingsu Switch is on sale for the Wolf Spider BOX63 magnetic switch keyboard replenishment"]
 2026-08-27: ["https://www.bilibili.com/opus/None", "MMD KM01 wireless custom knob will be on sale soon MelGeek VIVA63 full color series replenishment"]
+2026-08-28: ["https://www.bilibili.com/opus/None", "Electromagnetic micro-movement!Wolf Spider Kunlun X5 gaming mouse goes on sale with feather pattern!Maicong Ace 68 GT new color matching goes on sale"]
