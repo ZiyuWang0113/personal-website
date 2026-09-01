@@ -424,3 +424,4 @@
 2026-08-28: ["https://www.bilibili.com/opus/None", "Electromagnetic micro-movement!Wolf Spider Kunlun X5 gaming mouse goes on sale with feather pattern!Maicong Ace 68 GT new color matching goes on sale"]
 2026-08-29: ["https://www.bilibili.com/opus/None", "3950 sensor wired 25g mouse announced overseas, KBDfans launches ball axis 2.0"]
 2026-08-30: ["https://www.bilibili.com/opus/None", "Is inductive axis expected to become a new direction? TTC/Cherry have new patents leaked!"]
+2026-09-01: ["https://www.bilibili.com/opus/None", "Vanta NOTHING 68 magnetic axis keyboard is on sale and IKBC still has it in stock!Three types of aluminum alloy screen keyboards"]
