@@ -426,3 +426,4 @@
 2026-08-30: ["https://www.bilibili.com/opus/None", "Is inductive axis expected to become a new direction? TTC/Cherry have new patents leaked!"]
 2026-09-01: ["https://www.bilibili.com/opus/None", "Vanta NOTHING 68 magnetic axis keyboard is on sale and IKBC still has it in stock!Three types of aluminum alloy screen keyboards"]
 2026-09-02: ["https://www.bilibili.com/opus/None", "8Bitdo launches forest wonderland themed keyboard/mouse VK Valkyrie M5 series mouse on sale"]
+2026-09-03: ["https://www.bilibili.com/opus/None", "ATK Ray Kong Phantom PHANTOM Mouse Fixed Edition GB40Pixel Limited Edition Kit will be on sale soon"]
