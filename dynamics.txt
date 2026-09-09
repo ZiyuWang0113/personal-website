@@ -428,3 +428,4 @@
 2026-09-02: ["https://www.bilibili.com/opus/None", "8Bitdo launches forest wonderland themed keyboard/mouse VK Valkyrie M5 series mouse on sale"]
 2026-09-03: ["https://www.bilibili.com/opus/None", "ATK Ray Kong Phantom PHANTOM Mouse Fixed Edition GB40Pixel Limited Edition Kit will be on sale soon"]
 2026-09-05: ["https://www.bilibili.com/opus/None", "MZ peripherals new muffled shaft Y2x shaft on sale FOXORA Sunday98 large size keyboard group launch"]
+2026-09-09: ["https://www.bilibili.com/opus/None", "ATK Liekong Phantom Hollow Gaming Mouse is now on sale. Wooting officially announced the final version of 80HE + large knob magnetic axis keyboard."]
