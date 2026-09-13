@@ -430,3 +430,4 @@
 2026-09-05: ["https://www.bilibili.com/opus/None", "MZ peripherals new muffled shaft Y2x shaft on sale FOXORA Sunday98 large size keyboard group launch"]
 2026-09-09: ["https://www.bilibili.com/opus/None", "ATK Liekong Phantom Hollow Gaming Mouse is now on sale. Wooting officially announced the final version of 80HE + large knob magnetic axis keyboard."]
 2026-09-12: ["https://www.bilibili.com/opus/None", "Scyrox V12 wireless mouse is on sale, Wanxing Graffiti65 kit is about to be launched"]
+2026-09-13: ["https://www.bilibili.com/opus/None", "ATK YOGO series low-axis mechanical keyboard will be released soon, Harbor 60% kit will be launched in China"]
